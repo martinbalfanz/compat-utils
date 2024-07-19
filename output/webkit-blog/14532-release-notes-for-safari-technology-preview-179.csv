@@ -1,0 +1,55 @@
+179,,CSS,Added support for mask-border properties. (267460@main),https://commits.webkit.org/267460@main
+179,,CSS,Added support for the cap unit. (267315@main),https://commits.webkit.org/267315@main
+179,,CSS,Added support for the <position> parameter in ray(). (267459@main),https://commits.webkit.org/267459@main
+179,,CSS,Added new relaxed parsing behavior for CSS Nesting. (267549@main),https://commits.webkit.org/267549@main
+179,,CSS,Added support for xywh() shape. (267789@main),https://commits.webkit.org/267789@main
+179,,CSS,Added support for offset-position: normal for CSS Motion Path. (267657@main),https://commits.webkit.org/267657@main
+179,,CSS,"Added support for the rcap, rex, ric, and rch units. (267321@main)",https://commits.webkit.org/267321@main
+179,,CSS,Added new typed OM factory functions for font and root font relative units. (267437@main),https://commits.webkit.org/267437@main
+179,,CSS,Added support for the coord-box parameter in ray(). (267566@main),https://commits.webkit.org/267566@main
+179,,CSS,Added offset-position support for circle() and ellipse(). (267810@main),https://commits.webkit.org/267810@main
+179,,CSS,Fixed the font-family descriptor for @font-palette-values to accept multiple values. (267411@main),https://commits.webkit.org/267411@main
+179,,CSS,Fixed CSS @imports in HTML getting mistakenly hidden from the CSS preload scanner when missing a semi-colon and space. (267322@main),https://commits.webkit.org/267322@main
+179,,CSS,Fixed :nth-child() invalidation when not in subject position. (267600@main),https://commits.webkit.org/267600@main
+179,,CSS,Fixed :has(:host) invalidation. (267773@main),https://commits.webkit.org/267773@main
+179,,CSS,Fixed :has(:nth-child()) invalidation and related. (267771@main),https://commits.webkit.org/267771@main
+179,,CSS,Fixed handling dynamic updates to viewport units when used in @property initial value. (267590@main),https://commits.webkit.org/267590@main
+179,,CSS,Fixed the <basic-shape> implementation for offset-path. (267556@main),https://commits.webkit.org/267556@main
+179,,CSS,Fixed <coord-box> implementation for offset-path. (267524@main),https://commits.webkit.org/267524@main
+179,,CSS,Fixed serialization to always serialize implicit & and an implicit nested rule. (267531@main),https://commits.webkit.org/267531@main
+179,,CSS,Fixed the serialization of percentages in color-mix(). (267596@main),https://commits.webkit.org/267596@main
+179,,CSS,Fixed the check for in-progress layout when setting a containing block rect for ray() used with motion-path. (267479@main),https://commits.webkit.org/267479@main
+179,,CSS,Fixed adding fine-grained invalidation support for selectors containing :slotted(). (267326@main),https://commits.webkit.org/267326@main
+179,,CSS,Fixed rounding of <integer> type to round half towards positive infinity. (267339@main),https://commits.webkit.org/267339@main
+179,,CSS,Fixed fine-grained invalidation for :host pseudo-class in non-subject position. (267355@main),https://commits.webkit.org/267355@main
+179,,CSS,Fixed the container for the ::part pseudo-element to be selected from the originating element tree. (267421@main),https://commits.webkit.org/267421@main
+179,,CSS,Fixed serialization of infinity and -infinity in colors. (267544@main),https://commits.webkit.org/267544@main
+179,,CSS,"Fixed lab, lch, oklab, oklch components to be clamped to appropriate ranges. (267555@main)",https://commits.webkit.org/267555@main
+179,,CSS,Fixed coord-box to use border-radius for CSS Motion Path. (267613@main),https://commits.webkit.org/267613@main
+179,,CSS,Fixed color-mix() to not serialize to legacy color syntax. (267626@main),https://commits.webkit.org/267626@main
+179,,CSS,Fixed resolving the size of a replaced element by using its intrinsic size as the width. (267648@main),https://commits.webkit.org/267648@main
+179,,CSS,Fixed determining non-orthogonal grid item’s columnAxisPosition by considering fallback alignment for first/last baseline. (267811@main),https://commits.webkit.org/267811@main
+179,,HTML,Added support for the name attribute in the <details> element. (267756@main),https://commits.webkit.org/267756@main
+179,,HTML,"Fixed <input type=""number""> not returning the correct value when a decimal is entered. (267581@main)",https://commits.webkit.org/267581@main
+179,,HTML,Fixed dynamic handling of <base> elements. (267498@main),https://commits.webkit.org/267498@main
+179,,HTML,Fixed URL encoding of <base> elements. (267585@main),https://commits.webkit.org/267585@main
+179,,HTML,Fixed URL encoding of SVG <image> elements. (267593@main),https://commits.webkit.org/267593@main
+179,,HTML,Fixed empty value attributes to not be ignored on image input types. (267592@main),https://commits.webkit.org/267592@main
+179,,HTTP,Fixed COOP header breaking back and forward behavior when client-side redirects are involved. (267553@main),https://commits.webkit.org/267553@main
+179,,Media,"Added support for WebRTC HEVC RFC 7789 RTP Payload Format. (267677@main, 267862@main)","https://commits.webkit.org/267677@main 
+https://commits.webkit.org/267862@main"
+179,,Media,Fixed WebCodecs VideoEncoder configure to resolve its promise for unknown codecs. (267668@main),https://commits.webkit.org/267668@main
+179,,Media,Fixed handling NaN in audio delay curves. (267589@main),https://commits.webkit.org/267589@main
+179,,Media,Fixed setting the color space for WebCodecs/WebRTC VP9 for libvpx encoders. (267638@main),https://commits.webkit.org/267638@main
+179,,SVG,Added support for SVG <image crossorigin>. (267349@main),https://commits.webkit.org/267349@main
+179,,Web Animations,Fixed color-scheme to support discrete animation. (267750@main),https://commits.webkit.org/267750@main
+179,,Web API,Added support for window.clientInformation in terms of window.navigator. (267625@main),https://commits.webkit.org/267625@main
+179,,Web API,Fixed checking for NaN when creating a DelayNode for WebAudio. (267650@main),https://commits.webkit.org/267650@main
+179,,Web API,"Fixed element.querySelector("":has(:scope *)"") to never match. (267809@main)",https://commits.webkit.org/267809@main
+179,,Web API,Removed HTMLMediaElement.webkitHasClosedCaptions and HTMLMediaElement.webkitClosedCaptionsVisible. (267780@main),https://commits.webkit.org/267780@main
+179,,Web Inspector,"Added support for 2D OffscreenCanvas. (262388@main, 267488@main)","https://commits.webkit.org/262388@main 
+https://commits.webkit.org/267488@main"
+179,,Web Inspector,Added a specialized editor for the CSS steps() timing function. (267484@main),https://commits.webkit.org/267484@main
+179,,Web Inspector,Fixed objects logged to the console with multiple private fields that use the same name. (267483@main),https://commits.webkit.org/267483@main
+179,,WebGL,Added support for EXT_blend_func_extended. (267775@main),https://commits.webkit.org/267775@main
+179,,WebGL,Enabled support for WEBGL_clip_cull_distance by default. (267795@main),https://commits.webkit.org/267795@main

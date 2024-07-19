@@ -66,9 +66,12 @@ async function parseReleaseNotes(url) {
                 );
 
                 for (const item of items) {
-                  data.push([version, "", category, getTextContent(item), getLink(item.querySelector("a"))]);
+                  const links = Array.from(
+                    item.querySelectorAll("a")
+                  ).map((a) => a.href);
+
+                  data.push([version, "", category, getTextContent(item), links.join(" \n")]);
                 }
-                
               }
               contentSibling = contentSibling.nextElementSibling;
             }
