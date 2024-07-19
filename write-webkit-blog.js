@@ -70,7 +70,11 @@ async function parseReleaseNotes(url) {
                     item.querySelectorAll("a")
                   ).map((a) => a.href);
 
-                  data.push([version, "", category, getTextContent(item), links.join(" \n")]);
+                  const bugs = Array.from(
+                    item.querySelectorAll("a")
+                  ).map((a) => `https://bugs.webkit.org/buglist.cgi?content=${getTextContent(a)}`);
+
+                  data.push([version, "", category, getTextContent(item), links.join(" \n"), bugs.join(" \n")]);
                 }
               }
               contentSibling = contentSibling.nextElementSibling;

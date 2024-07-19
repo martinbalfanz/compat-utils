@@ -1,10 +1,10 @@
-195,,Accessibility,Fixed updating table accessibility text when its caption dynamically changes. (278164@main)  (127263464),https://commits.webkit.org/278164@main
-195,,Accessibility,Fixed updating aria-describedby text after the targeted element changes its subtree. (278318@main)  (127390465),https://commits.webkit.org/278318@main
-195,,CSS,Fixed carrying analogous components forward when interpolating colors. (278379@main)  (127170141),https://commits.webkit.org/278379@main
-195,,Media,Fixed broken audio playback for a WebM file with a Vorbis track. (278665@main)  (124880261),https://commits.webkit.org/278665@main
-195,,Rendering,Fixed pseudo-elements not getting captured for View Transitions. (278123@main)  (126964779),https://commits.webkit.org/278123@main
-195,,Rendering,Fixed View Transition rendering when the root element is not captured in the new snapshot. (278120@main)  (127217265),https://commits.webkit.org/278120@main
-195,,Scrolling,Fixed the cursor not updating as content scrolls under it on some pages. (278297@main)  (122347347),https://commits.webkit.org/278297@main
-195,,Web Extensions,Fixed Content Script CSS inconsistently overriding style attributes. (278387@main)  (126916972),https://commits.webkit.org/278387@main
-195,,Web Inspector,Fixed an issue where the Web Inspector viewport might appear cut off. (278208@main)  (117272735),https://commits.webkit.org/278208@main
-195,,Web Inspector,Fixed overflow: scroll elements to scroll as expected when highlighting an element from the DOM tree. (278614@main)  (124554999),https://commits.webkit.org/278614@main
+195,,Accessibility,Fixed updating table accessibility text when its caption dynamically changes. (278164@main)  (127263464),https://commits.webkit.org/278164@main,https://bugs.webkit.org/buglist.cgi?content=278164@main
+195,,Accessibility,Fixed updating aria-describedby text after the targeted element changes its subtree. (278318@main)  (127390465),https://commits.webkit.org/278318@main,https://bugs.webkit.org/buglist.cgi?content=278318@main
+195,,CSS,Fixed carrying analogous components forward when interpolating colors. (278379@main)  (127170141),https://commits.webkit.org/278379@main,https://bugs.webkit.org/buglist.cgi?content=278379@main
+195,,Media,Fixed broken audio playback for a WebM file with a Vorbis track. (278665@main)  (124880261),https://commits.webkit.org/278665@main,https://bugs.webkit.org/buglist.cgi?content=278665@main
+195,,Rendering,Fixed pseudo-elements not getting captured for View Transitions. (278123@main)  (126964779),https://commits.webkit.org/278123@main,https://bugs.webkit.org/buglist.cgi?content=278123@main
+195,,Rendering,Fixed View Transition rendering when the root element is not captured in the new snapshot. (278120@main)  (127217265),https://commits.webkit.org/278120@main,https://bugs.webkit.org/buglist.cgi?content=278120@main
+195,,Scrolling,Fixed the cursor not updating as content scrolls under it on some pages. (278297@main)  (122347347),https://commits.webkit.org/278297@main,https://bugs.webkit.org/buglist.cgi?content=278297@main
+195,,Web Extensions,Fixed Content Script CSS inconsistently overriding style attributes. (278387@main)  (126916972),https://commits.webkit.org/278387@main,https://bugs.webkit.org/buglist.cgi?content=278387@main
+195,,Web Inspector,Fixed an issue where the Web Inspector viewport might appear cut off. (278208@main)  (117272735),https://commits.webkit.org/278208@main,https://bugs.webkit.org/buglist.cgi?content=278208@main
+195,,Web Inspector,Fixed overflow: scroll elements to scroll as expected when highlighting an element from the DOM tree. (278614@main)  (124554999),https://commits.webkit.org/278614@main,https://bugs.webkit.org/buglist.cgi?content=278614@main

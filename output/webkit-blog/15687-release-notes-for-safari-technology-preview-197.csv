@@ -1,16 +1,16 @@
-197,,Canvas,Fixed a detached OffscreenCanvas to not transfer an ImageBuffer. (279775@main)  (129270155),https://commits.webkit.org/279775@main
-197,,CSS,Fixed custom counter styles disclosure-open and disclosure-closed to point to the correct direction in right-to-left. (279404@main)  (109014745),https://commits.webkit.org/279404@main
-197,,Forms,Fixed form controls drawing with an active appearance when the window is inactive. (279458@main)  (127391198),https://commits.webkit.org/279458@main
-197,,JavaScript,Fixed fractionalDigits of Intl.DurationFormat to be treated as at most 9 digits if it is omitted. (279632@main)  (129145390),https://commits.webkit.org/279632@main
-197,,Media,Fixed multiple cases of audio distortion occurring when using AudioWorklets. (279409@main)  (128551401),https://commits.webkit.org/279409@main
-197,,Rendering,Fixed min-content calculation for unstyled only-child inlines elements. (273633@main)  (128348427),https://commits.webkit.org/273633@main
-197,,Rendering,Fixed ellipsis rendering multiple times when position: relative and top are used. (279645@main)  (128394449),https://commits.webkit.org/279645@main
-197,,Rendering,Fixed a bug for inline elements inserted in reverse order after a block in a continuation. (279422@main)  (128826228),https://commits.webkit.org/279422@main
-197,,Rendering,Fixed the flash of a page background-colored bar in the footer when the window is resized. (279562@main)  (128940179),https://commits.webkit.org/279562@main
-197,,Security,Fixed CORS bypass on private localhost domain using 0.0.0.0 host and mode “no-cors”. (279835@main)  (125913679),https://commits.webkit.org/279835@main
-197,,SVG,Fixed error handling for invalid filter primitive references. (279421@main)  (104262208),https://commits.webkit.org/279421@main
-197,,SVG,Fixed SVGLength to sync with the WebIDL specification. (279659@main)  (129169603),https://commits.webkit.org/279659@main
-197,,Web Inspector,Fixed Web Inspector to show nested workers. (279793@main)  (108322385),https://commits.webkit.org/279793@main
-197,,Web Inspector,Fixed Accessibility inspector for switch controls to report “State: on/off” instead of “Checked: true/false”. (279772@main)  (128952449),https://commits.webkit.org/279772@main
-197,,WebDriver,Fixed retrieving titles containing multibyte characters. (279767@main)  (123987149),https://commits.webkit.org/279767@main
-197,,WebGL,Fixed OffscreenCanvas.transferToImageBuffer() to clear the WebGL drawing buffer. (279434@main)  (126738038),https://commits.webkit.org/279434@main
+197,,Canvas,Fixed a detached OffscreenCanvas to not transfer an ImageBuffer. (279775@main)  (129270155),https://commits.webkit.org/279775@main,https://bugs.webkit.org/buglist.cgi?content=279775@main
+197,,CSS,Fixed custom counter styles disclosure-open and disclosure-closed to point to the correct direction in right-to-left. (279404@main)  (109014745),https://commits.webkit.org/279404@main,https://bugs.webkit.org/buglist.cgi?content=279404@main
+197,,Forms,Fixed form controls drawing with an active appearance when the window is inactive. (279458@main)  (127391198),https://commits.webkit.org/279458@main,https://bugs.webkit.org/buglist.cgi?content=279458@main
+197,,JavaScript,Fixed fractionalDigits of Intl.DurationFormat to be treated as at most 9 digits if it is omitted. (279632@main)  (129145390),https://commits.webkit.org/279632@main,https://bugs.webkit.org/buglist.cgi?content=279632@main
+197,,Media,Fixed multiple cases of audio distortion occurring when using AudioWorklets. (279409@main)  (128551401),https://commits.webkit.org/279409@main,https://bugs.webkit.org/buglist.cgi?content=279409@main
+197,,Rendering,Fixed min-content calculation for unstyled only-child inlines elements. (273633@main)  (128348427),https://commits.webkit.org/273633@main,https://bugs.webkit.org/buglist.cgi?content=273633@main
+197,,Rendering,Fixed ellipsis rendering multiple times when position: relative and top are used. (279645@main)  (128394449),https://commits.webkit.org/279645@main,https://bugs.webkit.org/buglist.cgi?content=279645@main
+197,,Rendering,Fixed a bug for inline elements inserted in reverse order after a block in a continuation. (279422@main)  (128826228),https://commits.webkit.org/279422@main,https://bugs.webkit.org/buglist.cgi?content=279422@main
+197,,Rendering,Fixed the flash of a page background-colored bar in the footer when the window is resized. (279562@main)  (128940179),https://commits.webkit.org/279562@main,https://bugs.webkit.org/buglist.cgi?content=279562@main
+197,,Security,Fixed CORS bypass on private localhost domain using 0.0.0.0 host and mode “no-cors”. (279835@main)  (125913679),https://commits.webkit.org/279835@main,https://bugs.webkit.org/buglist.cgi?content=279835@main
+197,,SVG,Fixed error handling for invalid filter primitive references. (279421@main)  (104262208),https://commits.webkit.org/279421@main,https://bugs.webkit.org/buglist.cgi?content=279421@main
+197,,SVG,Fixed SVGLength to sync with the WebIDL specification. (279659@main)  (129169603),https://commits.webkit.org/279659@main,https://bugs.webkit.org/buglist.cgi?content=279659@main
+197,,Web Inspector,Fixed Web Inspector to show nested workers. (279793@main)  (108322385),https://commits.webkit.org/279793@main,https://bugs.webkit.org/buglist.cgi?content=279793@main
+197,,Web Inspector,Fixed Accessibility inspector for switch controls to report “State: on/off” instead of “Checked: true/false”. (279772@main)  (128952449),https://commits.webkit.org/279772@main,https://bugs.webkit.org/buglist.cgi?content=279772@main
+197,,WebDriver,Fixed retrieving titles containing multibyte characters. (279767@main)  (123987149),https://commits.webkit.org/279767@main,https://bugs.webkit.org/buglist.cgi?content=279767@main
+197,,WebGL,Fixed OffscreenCanvas.transferToImageBuffer() to clear the WebGL drawing buffer. (279434@main)  (126738038),https://commits.webkit.org/279434@main,https://bugs.webkit.org/buglist.cgi?content=279434@main

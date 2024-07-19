@@ -1,9 +1,9 @@
-196,,Canvas,Fixed toggling the visibility on a canvas parent undoing the effect of clearRect(). (279302@main)  (128226178),https://commits.webkit.org/279302@main
-196,,Canvas,Fixed the Canvas drawImage() API to throw an exception when the image is in broken state. (279319@main)  (128588063),https://commits.webkit.org/279319@main
-196,,CSS,Fixed incorrect inline element size when using font-variant-caps: all-small-caps with font-synthesis. (279183@main)  (121314557),https://commits.webkit.org/279183@main
-196,,JavaScript,Fixed RegEx lookbehinds differing from v8. (278863@main)  (127440248),https://commits.webkit.org/278863@main
-196,,Web API,Added support for bytes() to Blob and PushMessageData. (279263@main)  (128418858),https://commits.webkit.org/279263@main
-196,,Web Inspector,Added support for fuzzy search code completion in the CSS source editor. (2791444@main)  (125030691),https://commits.webkit.org/2791444@main
-196,,Web Inspector,Fixed console code completion to be case-insensitive. (279195@main)  (124544458),https://commits.webkit.org/279195@main
-196,,WebGL,Fixed compiling shaders without variables that are arrays and start with underscore. (278880@main)  (126944294),https://commits.webkit.org/278880@main
-196,,WebRTC,Fixed a delay in getUserMedia promise resolution. (278851@main)  (128112002),https://commits.webkit.org/278851@main
+196,,Canvas,Fixed toggling the visibility on a canvas parent undoing the effect of clearRect(). (279302@main)  (128226178),https://commits.webkit.org/279302@main,https://bugs.webkit.org/buglist.cgi?content=279302@main
+196,,Canvas,Fixed the Canvas drawImage() API to throw an exception when the image is in broken state. (279319@main)  (128588063),https://commits.webkit.org/279319@main,https://bugs.webkit.org/buglist.cgi?content=279319@main
+196,,CSS,Fixed incorrect inline element size when using font-variant-caps: all-small-caps with font-synthesis. (279183@main)  (121314557),https://commits.webkit.org/279183@main,https://bugs.webkit.org/buglist.cgi?content=279183@main
+196,,JavaScript,Fixed RegEx lookbehinds differing from v8. (278863@main)  (127440248),https://commits.webkit.org/278863@main,https://bugs.webkit.org/buglist.cgi?content=278863@main
+196,,Web API,Added support for bytes() to Blob and PushMessageData. (279263@main)  (128418858),https://commits.webkit.org/279263@main,https://bugs.webkit.org/buglist.cgi?content=279263@main
+196,,Web Inspector,Added support for fuzzy search code completion in the CSS source editor. (2791444@main)  (125030691),https://commits.webkit.org/2791444@main,https://bugs.webkit.org/buglist.cgi?content=2791444@main
+196,,Web Inspector,Fixed console code completion to be case-insensitive. (279195@main)  (124544458),https://commits.webkit.org/279195@main,https://bugs.webkit.org/buglist.cgi?content=279195@main
+196,,WebGL,Fixed compiling shaders without variables that are arrays and start with underscore. (278880@main)  (126944294),https://commits.webkit.org/278880@main,https://bugs.webkit.org/buglist.cgi?content=278880@main
+196,,WebRTC,Fixed a delay in getUserMedia promise resolution. (278851@main)  (128112002),https://commits.webkit.org/278851@main,https://bugs.webkit.org/buglist.cgi?content=278851@main

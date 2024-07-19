@@ -1,12 +1,12 @@
-199,,Apple Pay,Fixed arbitrary 8 digit limit on a line item’s total amount. (280584@main)  (112078798),https://commits.webkit.org/280584@main
-199,,CSS,Added support for (prefers-contrast: custom). (280383@main)  (103658875),https://commits.webkit.org/280383@main
-199,,CSS,Fixed computed values for text-box-edge. (280413@main)  (117643064),https://commits.webkit.org/280413@main
-199,,CSS,Fixed: Improved large Grid performance. (280473@main)  (130728344),https://commits.webkit.org/280473@main
-199,,Editing,Fixed an issue where input method editing would sporadically drop the composition range. (280291@main)  (130020224),https://commits.webkit.org/280291@main
-199,,JavaScript,Added support for Uint8Array.prototype.toBase64 and Uint8Array.prototype.toHex. (280654@main)  (129045737),https://commits.webkit.org/280654@main
-199,,JavaScript,Fixed Intl.DurationFormat for numeric and 2-digit. (280460@main)  (130279541),https://commits.webkit.org/280460@main
-199,,Media,Fixed missing picture-in-picture when leaving Safari with picture-in-picture enabled from video viewer. (279877@main)  (124376686),https://commits.webkit.org/279877@main
-199,,Media,Fixed a hang in WebAudio. (280604@main)  (130531570),https://commits.webkit.org/280604@main
-199,,Rendering,"Fixed support for border, padding, and margin on mfrac and mspace elements in MathML. (280665@main)  (131119823)",https://commits.webkit.org/280665@main
-199,,Text,Fixed disclosure counter styles to consider writing-mode. (280433@main)  (130468537),https://commits.webkit.org/280433@main
-199,,WebRTC,Fixed RTCAudioPlayoutStats to match web specifications. (280461@main)  (130767124),https://commits.webkit.org/280461@main
+199,,Apple Pay,Fixed arbitrary 8 digit limit on a line item’s total amount. (280584@main)  (112078798),https://commits.webkit.org/280584@main,https://bugs.webkit.org/buglist.cgi?content=280584@main
+199,,CSS,Added support for (prefers-contrast: custom). (280383@main)  (103658875),https://commits.webkit.org/280383@main,https://bugs.webkit.org/buglist.cgi?content=280383@main
+199,,CSS,Fixed computed values for text-box-edge. (280413@main)  (117643064),https://commits.webkit.org/280413@main,https://bugs.webkit.org/buglist.cgi?content=280413@main
+199,,CSS,Fixed: Improved large Grid performance. (280473@main)  (130728344),https://commits.webkit.org/280473@main,https://bugs.webkit.org/buglist.cgi?content=280473@main
+199,,Editing,Fixed an issue where input method editing would sporadically drop the composition range. (280291@main)  (130020224),https://commits.webkit.org/280291@main,https://bugs.webkit.org/buglist.cgi?content=280291@main
+199,,JavaScript,Added support for Uint8Array.prototype.toBase64 and Uint8Array.prototype.toHex. (280654@main)  (129045737),https://commits.webkit.org/280654@main,https://bugs.webkit.org/buglist.cgi?content=280654@main
+199,,JavaScript,Fixed Intl.DurationFormat for numeric and 2-digit. (280460@main)  (130279541),https://commits.webkit.org/280460@main,https://bugs.webkit.org/buglist.cgi?content=280460@main
+199,,Media,Fixed missing picture-in-picture when leaving Safari with picture-in-picture enabled from video viewer. (279877@main)  (124376686),https://commits.webkit.org/279877@main,https://bugs.webkit.org/buglist.cgi?content=279877@main
+199,,Media,Fixed a hang in WebAudio. (280604@main)  (130531570),https://commits.webkit.org/280604@main,https://bugs.webkit.org/buglist.cgi?content=280604@main
+199,,Rendering,"Fixed support for border, padding, and margin on mfrac and mspace elements in MathML. (280665@main)  (131119823)",https://commits.webkit.org/280665@main,https://bugs.webkit.org/buglist.cgi?content=280665@main
+199,,Text,Fixed disclosure counter styles to consider writing-mode. (280433@main)  (130468537),https://commits.webkit.org/280433@main,https://bugs.webkit.org/buglist.cgi?content=280433@main
+199,,WebRTC,Fixed RTCAudioPlayoutStats to match web specifications. (280461@main)  (130767124),https://commits.webkit.org/280461@main,https://bugs.webkit.org/buglist.cgi?content=280461@main
