@@ -1,0 +1,40 @@
+194,,Accessibility,Fixed range input not firing an input event when incremented or decremented via accessibility APIs. (277182@main)  (85707481),https://commits.webkit.org/277182@main
+194,,Accessibility,Fixed setting aria-hidden on a slot not hiding the slot’s assigned nodes. (277359@main)  (108762653),https://commits.webkit.org/277359@main
+194,,Accessibility,Fixed aria-hidden=true to be ignored on the <body> and <html> elements. (277677@main)  (123049663),https://commits.webkit.org/277677@main
+194,,Canvas,Added support for CanvasRenderingContext2D.filter. (278000@main) (51303686),https://commits.webkit.org/278000@main
+194,,Canvas,Added support for willReadFrequently. (277792@main) (126739379),https://commits.webkit.org/277792@main
+194,,Canvas,Fixed OffscreenCanvas failing to render to the placeholder with nested workers. (277328@main)  (126069375),https://commits.webkit.org/277328@main
+194,,Canvas,Fixed losing the contents layer of the placeholder canvas of OffscreenCanvas when switching off the tab. (277654@main)  (126070648),https://commits.webkit.org/277654@main
+194,,Canvas,Removed support for OffscreenCanvasRenderingContext2D’s commit() method. (278047@main) (126758254),https://commits.webkit.org/278047@main
+194,,CSS,Fixed an incorrect difference between implicit and explicit initial values for custom properties. (277670@main)  (124573975),https://commits.webkit.org/277670@main
+194,,CSS,Fixed excluding -apple-pay-button from applying to any element that supports appearance: auto and is not a button. (277268@main)  (126107516),https://commits.webkit.org/277268@main
+194,,CSS,Fixed missing color interpretation methods added to CSS color specifications. (277481@main)  (126444371),https://commits.webkit.org/277481@main
+194,,JavaScript,Added support for the v flag with RegExp.prototype[Symbol.matchAll]. (277160@main)  (126017731),https://commits.webkit.org/277160@main
+194,,JavaScript,Added support for Unicode 15.1.0 characters in RegExp. (277786@main)  (126863692),https://commits.webkit.org/277786@main
+194,,JavaScript,"Fixed RegExp.prototype.@@split to update the following legacy RegExp static properties: RegExp.input, RegExp.lastMatch, RegExp.lastParen, RegExp.leftContext, RegExp.rightContext, and RegExp.$1, ... RegExp.$9. (277559@main)  (99865597)",https://commits.webkit.org/277559@main
+194,,JavaScript,Fixed logical assignment expressions to throw a syntax error when the left side of the assignment is a function call. (277536@main)  (126540636),https://commits.webkit.org/277536@main
+194,,JavaScript,Fixed throwing a syntax error for nested duplicate-named capturing groups in RegEx. (277928@main) (126863735),https://commits.webkit.org/277928@main
+194,,JavaScript,Fixed Intl implementation to ensure canonicalizing “GMT” to “UTC” based on a spec update. (277997@main) (127061600),https://commits.webkit.org/277997@main
+194,,Networking,Fixed incorrect Sec-Fetch-Site value for navigation of a nested document. (277662@main)  (109358563),https://commits.webkit.org/277662@main
+194,,Rendering,Fixed incorrect View Transition snapshot position when page is scrolled. (277371@main)  (123668892),https://commits.webkit.org/277371@main
+194,,Rendering,Fixed Masonry to correctly perform intrinsic sizing. (277403@main)  (124240255),https://commits.webkit.org/277403@main
+194,,Rendering,Fixed visual overflow causing shifts in View Transitions. (277183@main)  (125882228),https://commits.webkit.org/277183@main
+194,,Rendering,Fixed snapshot scaling when animating View Transitions. (277636@main)  (125931538),https://commits.webkit.org/277636@main
+194,,Rendering,Fixed capturing the root background showing a white area at bottom in View Transitions. (272224@main)  (125931851),https://commits.webkit.org/272224@main
+194,,Rendering,Fixed incorrect grid item positioning with out-of-flow sibling. (277300@main)  (126207467),https://commits.webkit.org/277300@main
+194,,Rendering,Fixed visual overflow rect to be recomputed at every frame of View Transitions. (277482@main)  (126240398),https://commits.webkit.org/277482@main
+194,,Rendering,Fixed break-word with a float discarding text. (277461@main)  (126309547),https://commits.webkit.org/277461@main
+194,,Rendering,Fixed rendering 3D transforms in View Transitions. (277639@main)  (126513916),https://commits.webkit.org/277639@main
+194,,Rendering,Fixed image capture rectangle not including positioned descendants. (277714@main)  (126660740),https://commits.webkit.org/277714@main
+194,,SVG,Added animation support for the d property in SVG. (277299@main)  (126206354),https://commits.webkit.org/277299@main
+194,,SVG,Fixed clipping an SVG when an SVGFilter is applied to its root. (265135@main)  (118938065),https://commits.webkit.org/265135@main
+194,,Web Animations,Fixed updating an animation when changing the value of a transform property while that property is animated with an implicit keyframe. (277257@main)  (126126617),https://commits.webkit.org/277257@main
+194,,Web Animations,Fixed animating with color-mix. (277256@main)  (126148201),https://commits.webkit.org/277256@main
+194,,Web API,Added support for serializing shadow roots through getHTML() as well as the corresponding shadow root serializable feature. (277374@main)  (125513986),https://commits.webkit.org/277374@main
+194,,Web API,Fixed throwing exceptions in navigation methods if in a detached state. (277487@main)  (123898636),https://commits.webkit.org/277487@main
+194,,Web API,Fixed a minor issue in URL’s host setter. (277531@main)  (124363495),https://commits.webkit.org/277531@main
+194,,Web API,Fixed GeolocationCoordinates to expose a toJSON() method. (277347@main)  (126183686),https://commits.webkit.org/277347@main
+194,,Web API,Fixed GeolocationPosition to expose a toJSON() method. (277413@main)  (126247408),https://commits.webkit.org/277413@main
+194,,Web API,Fixed setting CustomEvent.target when dispatching an event. (277435@main)  (126311287),https://commits.webkit.org/277435@main
+194,,Web Extensions,Fixed permissionState to be requested if an extension has the webNavigation permission. (277308@main)  (126212951),https://commits.webkit.org/277308@main
+194,,WebGL,"Enabled support for the following approved extensions: EXT_render_snorm, OES_sample_variables, and OES_shader_multisample_interpolation. (277775@main)  (126863775)",https://commits.webkit.org/277775@main

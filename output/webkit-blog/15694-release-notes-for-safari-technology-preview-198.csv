@@ -1,0 +1,12 @@
+198,,CSS,Added support for the :active-view-transition pseudo-class. (280027@main)  (129851076),https://commits.webkit.org/280027@main
+198,,Forms,Fixed input elements to use the [value] as the first fallback step base. (280127@main)  (107721910),https://commits.webkit.org/280127@main
+198,,JavaScript,Fixed V128 values to be throwable to match the specification. (279989@main)  (106030051),https://commits.webkit.org/279989@main
+198,,Media,Fixed missing picture-in-picture when leaving Safari with picture-in-picture enabled from video viewer. (279877@main)  (124376686),https://commits.webkit.org/279877@main
+198,,Media,Fixed the context menu to show “Exit Viewer” when using video viewer. (280128@main)  (126300924),https://commits.webkit.org/280128@main
+198,,Rendering,Fixed scrolling in a flexbox container. (279992@main)  (129343181),https://commits.webkit.org/279992@main
+198,,Safari Extensions,Fixed throwing an exception when calling browser.storage.set with undefined as a map value. (280265@main)  (130282050),https://commits.webkit.org/280265@main
+198,,SVG,Removed non-standard getTransformToElement from SVGGraphicsElement (280208@main)  (122435702),https://commits.webkit.org/280208@main
+198,,Web API,Fixed an issue when inserting writing suggestions into an editable display: grid container. (279986@main)  (129366300),https://commits.webkit.org/279986@main
+198,,Web Inspector,Fixed disappearing objects and disclosure triangles when Web Inspector is at narrow widths. (279894@main)  (121861970),https://commits.webkit.org/279894@main
+198,,Web Inspector,Fixed the list of breakpoints in the Sources tab disappearing when Web Inspector is reloaded. (279884@main)  (123641994),https://commits.webkit.org/279884@main
+198,,WebRTC,Fixed RTCEncodedVideoFrame and RTCEncodedAudioFrame to match the WebIDL specification. (280198@main)  (118607685),https://commits.webkit.org/280198@main
