@@ -1,6 +1,10 @@
+import { parseArgs } from "jsr:@std/cli/parse-args";
 import { launch } from "https://deno.land/x/astral/mod.ts";
 import { writeJson } from "https://deno.land/x/jsonfile/mod.ts";
 import { writeCSV } from "jsr:@vslinko/csv";
+
+const args = parseArgs(Deno.args);
+const inputUrl = args._[0] ? String(args._[0]) : null;
 
 const astral = await launch({
   headless: true,
@@ -95,7 +99,7 @@ async function fileExists(path) {
 
 async function main() {
   const outputDir = "./output/webkit-blog";
-  const links = await getLinks();
+  const links = inputUrl ? [inputUrl] : await getLinks();
   await Deno.mkdir(outputDir, { recursive: true });
 
   for (const link of links) {
