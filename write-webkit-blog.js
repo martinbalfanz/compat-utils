@@ -1,6 +1,5 @@
 import { parseArgs } from "jsr:@std/cli/parse-args";
 import { launch } from "https://deno.land/x/astral/mod.ts";
-import { writeJson } from "https://deno.land/x/jsonfile/mod.ts";
 import { writeCSV } from "jsr:@vslinko/csv";
 
 const args = parseArgs(Deno.args);
