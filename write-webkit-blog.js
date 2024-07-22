@@ -38,7 +38,6 @@ async function parseReleaseNotes(url) {
   const data = await page.evaluate(() => {
     const data = [];
     const getTextContent = (el) => (el ? el.textContent.trim() : "");
-    const getLink = (el) => (el ? el.href : "");
 
     const mainContent = document.querySelector(".bodycopy");
 
@@ -53,8 +52,6 @@ async function parseReleaseNotes(url) {
         let nextSibling = h3.nextElementSibling;
         while (nextSibling && nextSibling.tagName !== "H3") {
           if (nextSibling.tagName === "H4") {
-            const subcategory = getTextContent(nextSibling);
-
             let contentSibling = nextSibling.nextElementSibling;
             while (
               contentSibling &&
