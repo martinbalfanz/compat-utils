@@ -1,0 +1,8 @@
+,17.3,CSS,Fixed nested @supports queries with declarations.  (113652033),,https://bugs.webkit.org/buglist.cgi?content=113652033
+,17.3,CSS,Fixed the caret color on iOS following an explicitly-set CSS color attribute.  (118401826),,https://bugs.webkit.org/buglist.cgi?content=118401826
+,17.3,Loading,Fixed cookies not always working as expected with Samesite=Lax.  (119362503),,https://bugs.webkit.org/buglist.cgi?content=119362503
+,17.3,Loading,Fixed an issue causing sign in to fail on Delta.com.  (120431796),,https://bugs.webkit.org/buglist.cgi?content=120431796
+,17.3,Media,Fixed to not loop if current time or duration is zero.  (118902468),,https://bugs.webkit.org/buglist.cgi?content=118902468
+,17.3,Media,Fixed in-band captions wrapping unnecessarily.  (119138261),,https://bugs.webkit.org/buglist.cgi?content=119138261
+,17.3,Privacy,Fixed unauthenticated cross-site Fetch requests to not use the global HSTS cache.  (119047103),,https://bugs.webkit.org/buglist.cgi?content=119047103
+,17.3,Web Animations,Fixed: Prevent scheduling for an effect targeting an element with display: none.  (119191813),,https://bugs.webkit.org/buglist.cgi?content=119191813

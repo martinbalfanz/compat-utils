@@ -1,0 +1,38 @@
+,14.1,Authentication and Passwords,Added support for Touch ID and Face ID via WebAuthentication to all WKWebViews. See Web Authentication for more information.,https://www.w3.org/TR/webauthn/,
+,14.1,CSS and Web Animations,"Added support for CSS individual transform properties: translate, rotate, and scale.",https://drafts.csswg.org/css-transforms-2/#individual-transforms,
+,14.1,CSS and Web Animations,"Web Animations now support animating discrete properties and pseudo-elements, see Web Animations.",https://drafts.csswg.org/web-animations-1/,
+,14.1,CSS and Web Animations,"Safari now supports flexbox gaps with row-gap and column-gap, see Gap Shorthand: the gap property.",https://drafts.csswg.org/css-align/#gap-flex,
+,14.1,JavaScript and WebAssembly,"Added support for static instance class fields, private instance class fields, and static public class fields — public instance class fields were already supported. See Public and private instance fields proposal for more information.",https://tc39.es/proposal-class-fields/,
+,14.1,JavaScript and WebAssembly,"Added support for new ECMAScript Internationalization API features:Added Intl.NumberFormat updates.Added Intl.DisplayNames updates.Added Intl.ListFormat updates.Added Intl.Segmenter.Added Intl.DateTimeFormat updates to dateStyle and timeStyle options on the Intl.DateTimeFormat API Specification, Intl.DateTimeFormat.prototype.formatRange, Add dayPeriod option, and Add fractionalSecondDigits option.","https://github.com/tc39/proposal-unified-intl-numberformat 
+https://github.com/tc39/proposal-intl-displaynames 
+https://github.com/tc39/proposal-intl-list-format 
+https://github.com/tc39/proposal-intl-segmenter 
+https://github.com/tc39/proposal-intl-datetime-style 
+https://github.com/tc39/proposal-intl-DateTimeFormat-formatRange 
+https://github.com/tc39/ecma402/pull/346 
+https://github.com/tc39/ecma402/pull/347",
+,14.1,JavaScript and WebAssembly,Added Intl.NumberFormat updates.,https://github.com/tc39/proposal-unified-intl-numberformat,
+,14.1,JavaScript and WebAssembly,Added Intl.DisplayNames updates.,https://github.com/tc39/proposal-intl-displaynames,
+,14.1,JavaScript and WebAssembly,Added Intl.ListFormat updates.,https://github.com/tc39/proposal-intl-list-format,
+,14.1,JavaScript and WebAssembly,Added Intl.Segmenter.,https://github.com/tc39/proposal-intl-segmenter,
+,14.1,JavaScript and WebAssembly,"Added Intl.DateTimeFormat updates to dateStyle and timeStyle options on the Intl.DateTimeFormat API Specification, Intl.DateTimeFormat.prototype.formatRange, Add dayPeriod option, and Add fractionalSecondDigits option.","https://github.com/tc39/proposal-intl-datetime-style 
+https://github.com/tc39/proposal-intl-DateTimeFormat-formatRange 
+https://github.com/tc39/ecma402/pull/346 
+https://github.com/tc39/ecma402/pull/347",
+,14.1,JavaScript and WebAssembly,Added support for WeakRefs and FinalizationRegistry.,https://tc39.es/proposal-weakrefs/,
+,14.1,JavaScript and WebAssembly,Added support for Arbitrary module namespace identifier names.,https://github.com/tc39/ecma262/pull/2154,
+,14.1,JavaScript and WebAssembly,Added support for WebAssembly atomic instructions in the Threading specification.,https://webassembly.github.io/threads/core/,
+,14.1,JavaScript and WebAssembly,Added support for WebAssembly BigInt integration.,https://github.com/WebAssembly/JS-BigInt-integration,
+,14.1,JavaScript and WebAssembly,Added support for WebAssembly Sign-extension instructions.,https://github.com/WebAssembly/sign-extension-ops,
+,14.1,Media,"Added support for WebM files containing VP8 or VP9 video tracks and Vorbis audio tracks in macOS, see WebM Container Guidelines.",https://www.webmproject.org/docs/container/,
+,14.1,Media,"Added support for MediaStream Recording to enable websites to record audio and video, see MediaStream Recording.",https://w3c.github.io/mediacapture-record/MediaRecorder.html,
+,14.1,Media,Added support for getUserMedia from MediaStream and Capture API in WKWebView.,https://w3c.github.io/mediacapture-main/#dom-mediadevices-getusermedia,
+,14.1,Safari Web Extensions,Added support for WebExtensions API to replace the new tab page.,,
+,14.1,Safari Web Extensions,Added support for non-persistent background pages.,,
+,14.1,Security and Privacy,"Improved Storage Access API interoperability and specification compliance, see Storage Access API.",https://webkit.org/blog/11545/updates-to-the-storage-access-api/,
+,14.1,Security and Privacy,"Added support for Private Click Measurement, enabling privacy-preserving ad attribution for web-to-web and app-to-web flows.",https://webkit.org/blog/11529/introducing-private-click-measurement-pcm/,
+,14.1,WebKit Framework,"Added support for HTML date, time, and datetime-local input types in macOS, enabling date and time controls in forms. For more information, see Date state (type=date).",https://html.spec.whatwg.org/#date-state-(type=date),
+,14.1,WebKit Framework,"Added support for Web Audio API, now unprefixed, compliant, and including Audio Worklets. This enables better compatibility for advanced audio processing, see Web Audio API for more information.",https://www.w3.org/TR/webaudio/,
+,14.1,WebKit Framework,Added support for Web Speech API that enables speech recognition and speech synthesis for websites.,https://wicg.github.io/speech-api/,
+,14.1,WebKit Framework,"Improved mouse support in iPadOS and in apps built with Mac Catalyst, including scrolling events and hover/pointer media queries.",,
+,14.1,WebKit Framework,"Added support for Paint Timing, a Web API that measures how quickly a webpage is displayed.  See Paint Timing 1 for more information.",https://w3c.github.io/paint-timing/,

@@ -1,0 +1,53 @@
+,15,General,"Redesigned the Safari user interface in macOS 12, iOS and iPadOS 15, along with adding Tab Groups and customization sync.",,
+,15,Authentication and Passwords,Added support for Verification Codes to the iCloud Keychain Password Manager. To use verification codes with Safari and Autofill:Use autocomplete=one-time-code to make an <input> eligible for AutoFill.Use a standard otpauth URL and replace the scheme with apple-otpauth to link directly to the password manager for setup.Use a raster image to enable contextual menus on otpauth QR codes that offer to set up a verification code generator.,,
+,15,Authentication and Passwords,Use autocomplete=one-time-code to make an <input> eligible for AutoFill.,,
+,15,Authentication and Passwords,Use a standard otpauth URL and replace the scheme with apple-otpauth to link directly to the password manager for setup.,,
+,15,Authentication and Passwords,Use a raster image to enable contextual menus on otpauth QR codes that offer to set up a verification code generator.,,
+,15,Authentication and Passwords,"Added technology preview of passkeys in iCloud Keychain:Passkeys are WebAuth credentials intended to replace passwords for website and apps with device sync and backup.To Enable the technology preview, in Safari choose Develop > Enable Syncing Platform Authenticator.",,
+,15,Authentication and Passwords,Passkeys are WebAuth credentials intended to replace passwords for website and apps with device sync and backup.,,
+,15,Authentication and Passwords,"To Enable the technology preview, in Safari choose Develop > Enable Syncing Platform Authenticator.",,
+,15,CSS,Added support for aspect-ratio for box elements.,,
+,15,CSS,"Added support for lab(), lch(), hwb() color syntaxes.",,
+,15,CSS,"Added support for predefined color spaces using the color() syntax: srgb, display-p3, a98-rgb, prophoto-rgb, rec2020, xyz.","https://drafts.csswg.org/css-color-4/#valdef-color-srgb 
+https://drafts.csswg.org/css-color-4/#valdef-color-display-p3 
+https://drafts.csswg.org/css-color-4/#valdef-color-a98-rgb 
+https://drafts.csswg.org/css-color-4/#valdef-color-prophoto-rgb 
+https://drafts.csswg.org/css-color-4/#valdef-color-rec2020 
+https://drafts.csswg.org/css-color-4/#valdef-color-xyz",https://bugs.webkit.org/buglist.cgi?content=rec2020
+,15,CSS,Adjusted environment variable calculations where appropriate to adjust for the safe area of the new iOS design.,,
+,15,HTML,Redesigned form controls in iOS.,,
+,15,HTML,"Added support for the theme-color meta tag to change the tab bar background and over-scroll area in macOS and iPadOS, and the status bar in iOS.",,
+,15,HTML,"Added support for the media attribute to specify theme-color meta tags for Dark Mode and light appearance.<meta name=""theme-color"" 
+      content=""#ecd96f"" 
+      media=""(prefers-color-scheme: light)"">
+<meta name=""theme-color"" 
+      content=""#0b3e05"" 
+      media=""(prefers-color-scheme: dark)"">",,
+,15,JavaScript,Added top-level await.,,
+,15,JavaScript,Added support for ES6 Modules in Workers and ServiceWorkers.,,
+,15,JavaScript,Added support for Error.cause.,,
+,15,JavaScript,Added support for private class methods and accessors (Safari 14.1 added support for private data member syntax).,,
+,15,JavaScript,Added support for BigInt64Array and BigUint64Array.,,
+,15,Media,Added support for the MediaSession API to enable SharePlay experiences.,,
+,15,Media,Added Playback Speed and Chapters menus to built-in media controls.,,
+,15,Media,Added hardware accelerated VP9 and WebM in MSE on all iPads that support iPadOS 15.,,
+,15,Media,Added support for the Opus audio codec in WebM containers.,,
+,15,Security & Privacy,Added support for automatic HTTPS upgrades.,,
+,15,Security & Privacy,Added IP address hiding from known trackers which users can enable in Safari Preferences.,,
+,15,Security & Privacy,Private Click Measurement enhancements for privacy-preserving ad click attribution:Updated attribution reporting to also send reports to the click destination.Added click fraud prevention with un-linkable tokens.Added IP address protection for attribution reports.,,
+,15,Security & Privacy,Updated attribution reporting to also send reports to the click destination.,,
+,15,Security & Privacy,Added click fraud prevention with un-linkable tokens.,,
+,15,Security & Privacy,Added IP address protection for attribution reports.,,
+,15,Payments,Added support for indicating an estimated arrival date for shipping methods.,,
+,15,Payments,Added support for the user to enter a coupon code.,,
+,15,Payments,Added support for marking the shipping method as in-store pickup.,,
+,15,WebAssembly,Added support for streaming compilation.,,
+,15,WebAssembly,Added support for bulk memory operations.,,
+,15,WebAssembly,Added support for reference types.,,
+,15,WebAssembly,Added support for non-trapping conversions from float to int.,,
+,15,Web APIs,Added support for WebGL 2. The implementation of WebGL runs on top of Metal for better performance.,https://developer.apple.com/documentation/metal,
+,15,Web APIs,Added support for Web Share level 2 enhancements to Web Share that enable sharing files from a web page to an app. See Web Share API for more information.,https://w3c.github.io/web-share/,
+,15,Web APIs,User gestures now propagate through requestAnimationFrame with a one second time limit.,,
+,15,Web Extensions,Added support for Safari Web Extensions in iOS and iPadOS.,,
+,15,Web Extensions,Added support for declarativeNetRequest in Safari Web Extensions.,,
+,15,Web Inspector,Added an inspected page overlay for visualizing and debugging CSS grid contexts.,,
