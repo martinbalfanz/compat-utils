@@ -17,8 +17,7 @@
 ,14,Authentication and Passwords,"Added support to Security Code AutoFill for domain-bound, one-time codes sent over SMS; in the following 2FA SMS, Safari  only offers to fill the code on example.com, and no other domain.Your Example code is 123446.
 
 
-@example.com #123446",https://wicg.github.io/sms-one-time-codes/,"https://bugs.webkit.org/buglist.cgi?content=123446 
-https://bugs.webkit.org/buglist.cgi?content=123446"
+@example.com #123446",https://wicg.github.io/sms-one-time-codes/,
 ,14,JavaScript,Added support for the BigInt data type.,,
 ,14,JavaScript,Added support for creating custom instances of EventTarget.,,
 ,14,JavaScript,Added logical assignment operator support.,,

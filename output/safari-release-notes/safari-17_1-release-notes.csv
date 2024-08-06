@@ -26,8 +26,7 @@
 ,17.1,Web API,Fixed intermittent removal of adoptedStyleSheet CSSStyleSheet instances when assigning an adoptedStyleSheet array.  (107768559),,https://bugs.webkit.org/buglist.cgi?content=107768559
 ,17.1,Web API,Fixed: Improved the performance of IntersectionObserver operations during scrolling.  (111120491),,https://bugs.webkit.org/buglist.cgi?content=111120491
 ,17.1,Web API,Fixed ElementInternals.setFormValue(<nullish value>) to clear the submission value.  (111802198),,https://bugs.webkit.org/buglist.cgi?content=111802198
-,17.1,Web API,Fixed keyboard scroll not stopping after pressing the down arrow if keyup is default prevented.  (112396756) (FB12647732),,"https://bugs.webkit.org/buglist.cgi?content=112396756 
-https://bugs.webkit.org/buglist.cgi?content=FB12647732"
+,17.1,Web API,Fixed keyboard scroll not stopping after pressing the down arrow if keyup is default prevented.  (112396756) (FB12647732),,https://bugs.webkit.org/buglist.cgi?content=112396756
 ,17.1,Web API,Fixed window.postMessage with OffscreenCanvas with an isolated world message listener.  (112618195),,https://bugs.webkit.org/buglist.cgi?content=112618195
 ,17.1,Web API,Fixed a bug that could cause a nested popover element within a shadow DOM to improperly dismiss its ancestor popover.  (113604250),,https://bugs.webkit.org/buglist.cgi?content=113604250
 ,17.1,Web Apps,Fixed handling dismissed notifications on macOS.  (113756668),,https://bugs.webkit.org/buglist.cgi?content=113756668

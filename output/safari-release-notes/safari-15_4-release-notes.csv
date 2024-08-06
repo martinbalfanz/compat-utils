@@ -1,6 +1,4 @@
-,15.4,General,Safari 15.4 in macOS Catalina running on an iMac (Late 2012 or 2013) with a NVIDIA GPU may experience multiple sites that fail to load or continuously refresh after loading. (88177392),,"https://bugs.webkit.org/buglist.cgi?content=2012 
-https://bugs.webkit.org/buglist.cgi?content=2013 
-https://bugs.webkit.org/buglist.cgi?content=88177392"
+,15.4,General,Safari 15.4 in macOS Catalina running on an iMac (Late 2012 or 2013) with a NVIDIA GPU may experience multiple sites that fail to load or continuously refresh after loading. (88177392),,https://bugs.webkit.org/buglist.cgi?content=88177392
 ,15.4,CSS,Added ::backdrop pseudo-element support.,,
 ,15.4,CSS,Added support for CSS Containment with the contain property.,,
 ,15.4,CSS,Added CSS Cascade Layer support for improved developer control over cascading rules.,,

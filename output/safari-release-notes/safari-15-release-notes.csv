@@ -13,7 +13,7 @@ https://drafts.csswg.org/css-color-4/#valdef-color-display-p3
 https://drafts.csswg.org/css-color-4/#valdef-color-a98-rgb 
 https://drafts.csswg.org/css-color-4/#valdef-color-prophoto-rgb 
 https://drafts.csswg.org/css-color-4/#valdef-color-rec2020 
-https://drafts.csswg.org/css-color-4/#valdef-color-xyz",https://bugs.webkit.org/buglist.cgi?content=rec2020
+https://drafts.csswg.org/css-color-4/#valdef-color-xyz",
 ,15,CSS,Adjusted environment variable calculations where appropriate to adjust for the safe area of the new iOS design.,,
 ,15,HTML,Redesigned form controls in iOS.,,
 ,15,HTML,"Added support for the theme-color meta tag to change the tab bar background and over-scroll area in macOS and iPadOS, and the status bar in iOS.",,

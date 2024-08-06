@@ -188,8 +188,6 @@
 ,17.4,WebGL,Fixed WebGL OffscreenCanvas returning the previously created WebGL1 context when asking for WebGL2.  (119028794),,https://bugs.webkit.org/buglist.cgi?content=119028794
 ,17.4,WebGL,Fixed WebGL to be available in nested workers.  (120279728),,https://bugs.webkit.org/buglist.cgi?content=120279728
 ,17.4,WebKit,"Fixed HTML content not displaying in a Simulator, affecting projects using the web extension project template.  (121338366)",,https://bugs.webkit.org/buglist.cgi?content=121338366
-,17.4,WebRTC,"Fixed media tracks obtained with {""width"":1920,""height"":1080,""frameRate"":24}.  (61747755)",,"https://bugs.webkit.org/buglist.cgi?content=1920 
-https://bugs.webkit.org/buglist.cgi?content=1080 
-https://bugs.webkit.org/buglist.cgi?content=61747755"
+,17.4,WebRTC,"Fixed media tracks obtained with {""width"":1920,""height"":1080,""frameRate"":24}.  (61747755)",,https://bugs.webkit.org/buglist.cgi?content=61747755
 ,17.4,WebRTC,Fixed triggering resolution scaling in the case of WebRTC maintain-framerate degradationPreference.  (121041723),,https://bugs.webkit.org/buglist.cgi?content=121041723
 ,17.4,WebRTC,Fixed a bug that prevented HTML canvas elements from always being marked dirty on initialization. This could cause some video effects to have choppy animations.  (121257960),,https://bugs.webkit.org/buglist.cgi?content=121257960

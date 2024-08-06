@@ -5,7 +5,7 @@
 ,12,Authentication and Passwords,"Added support for using username, current-password, and new-passwordvalues for the autocomplete attribute in credential-related forms. For example, <input type=""password"" autocomplete=""new-password"">.",,
 ,12,Authentication and Passwords,Added support for filling security codes delivered over SMS.,,
 ,12,Authentication and Passwords,Added support for tagging text fields using the one-time-code value of the autocomplete attribute to ensure that Security Code AutoFill is offered.,,
-,12,Authentication and Passwords,"Added support for using security codes from text messages with a numeric sequence near the word “code”, such as “Your secure login code is: 123456.”",,https://bugs.webkit.org/buglist.cgi?content=123456
+,12,Authentication and Passwords,"Added support for using security codes from text messages with a numeric sequence near the word “code”, such as “Your secure login code is: 123456.”",,
 ,12,Media,Added support for viewing USDZ models embedded in websites in 3D and AR.,,
 ,12,Media,Added support for viewing HTML elements in full screen on iPad.,,
 ,12,CSS and Text,Added support for font collections in WOFF2 and TTC files.,,
@@ -17,7 +17,7 @@
 ,12,Security and Privacy,Added support for cross-origin-window-policy and cross-origin-resource-policy to defend against Cross Site Script Inclusion attacks.,,
 ,12,Web Inspector and Tools,Added support for debugging WebGL shaders in the Canvas tab.,,
 ,12,Web Inspector and Tools,Updated Safari WebDriver to implement the protocol as defined by the W3C WebDriver specification,https://www.w3.org/TR/webdriver/,
-,12,Safari Extensions,Deprecated support for .safariextz Safari Extensions installed from the Safari Extensions Gallery with Safari 12 on macOS. Submissions to the Safari Extensions Gallery will no longer be accepted after December 2018. Developers are encouraged to transition to Safari App Extensions.,,https://bugs.webkit.org/buglist.cgi?content=2018
+,12,Safari Extensions,Deprecated support for .safariextz Safari Extensions installed from the Safari Extensions Gallery with Safari 12 on macOS. Submissions to the Safari Extensions Gallery will no longer be accepted after December 2018. Developers are encouraged to transition to Safari App Extensions.,,
 ,12,Safari Extensions,Disabled canLoad Safari Extensions on first launch. Safari Extensions that make use of the canLoad event are disabled on first launch and users are notified with a warning that their use is harmful to performance. These extensions can be enabled in Safari Extensions preferences. Developers are encouraged to move to Content Blocker Extensions.,,
 ,12,Safari Extensions,"Removed Support for Developer-signed .safariextz Safari Extensions in Safari 12 on macOS. They no longer appear in Safari preferences and cannot be enabled. If a user has one of these extensions installed, they receive a warning notification on first launch.",,
 ,12,Legacy NPAPI Plugins,Removed support for running legacy NPAPI plugins other than Adobe Flash.,,
@@ -174,8 +174,7 @@ https://developer.apple.com/documentation/safariservices/sfsafariviewcontrollerd
 ,14,Authentication and Passwords,"Added support to Security Code AutoFill for domain-bound, one-time codes sent over SMS; in the following 2FA SMS, Safari  only offers to fill the code on example.com, and no other domain.Your Example code is 123446.
 
 
-@example.com #123446",https://wicg.github.io/sms-one-time-codes/,"https://bugs.webkit.org/buglist.cgi?content=123446 
-https://bugs.webkit.org/buglist.cgi?content=123446"
+@example.com #123446",https://wicg.github.io/sms-one-time-codes/,
 ,14,JavaScript,Added support for the BigInt data type.,,
 ,14,JavaScript,Added support for creating custom instances of EventTarget.,,
 ,14,JavaScript,Added logical assignment operator support.,,
@@ -246,7 +245,7 @@ https://drafts.csswg.org/css-color-4/#valdef-color-display-p3
 https://drafts.csswg.org/css-color-4/#valdef-color-a98-rgb 
 https://drafts.csswg.org/css-color-4/#valdef-color-prophoto-rgb 
 https://drafts.csswg.org/css-color-4/#valdef-color-rec2020 
-https://drafts.csswg.org/css-color-4/#valdef-color-xyz",https://bugs.webkit.org/buglist.cgi?content=rec2020
+https://drafts.csswg.org/css-color-4/#valdef-color-xyz",
 ,15,CSS,Adjusted environment variable calculations where appropriate to adjust for the safe area of the new iOS design.,,
 ,15,HTML,Redesigned form controls in iOS.,,
 ,15,HTML,"Added support for the theme-color meta tag to change the tab bar background and over-scroll area in macOS and iPadOS, and the status bar in iOS.",,
@@ -298,9 +297,7 @@ https://drafts.csswg.org/css-color-4/#valdef-color-xyz",https://bugs.webkit.org/
 ,15.2,Security,Re-enabled SharedArrayBuffer for sites that use COOP and COEP securely to create an isolated environment.,,
 ,15.2,Media,Fixed microphone switching during FaceTime calls for Safari on macOS.,,
 ,15.2,Media,Fixed audio cutting off and AudioContext.currentTime drifting when connected to a Bluetooth speaker.,,
-,15.4,General,Safari 15.4 in macOS Catalina running on an iMac (Late 2012 or 2013) with a NVIDIA GPU may experience multiple sites that fail to load or continuously refresh after loading. (88177392),,"https://bugs.webkit.org/buglist.cgi?content=2012 
-https://bugs.webkit.org/buglist.cgi?content=2013 
-https://bugs.webkit.org/buglist.cgi?content=88177392"
+,15.4,General,Safari 15.4 in macOS Catalina running on an iMac (Late 2012 or 2013) with a NVIDIA GPU may experience multiple sites that fail to load or continuously refresh after loading. (88177392),,https://bugs.webkit.org/buglist.cgi?content=88177392
 ,15.4,CSS,Added ::backdrop pseudo-element support.,,
 ,15.4,CSS,Added support for CSS Containment with the contain property.,,
 ,15.4,CSS,Added CSS Cascade Layer support for improved developer control over cascading rules.,,
@@ -1189,18 +1186,14 @@ https://bugs.webkit.org/buglist.cgi?content=88177392"
 ,17,Media,"Added support for WebCodecs temporal scalabilityMode for software codecs, including parsing and error handling. (110774875)",,https://bugs.webkit.org/buglist.cgi?content=110774875
 ,17,Media,Added support for stereo-only Opus in MPEG-4 and WebM containers on macOS Sonoma. (50994465),,https://bugs.webkit.org/buglist.cgi?content=50994465
 ,17,Media,Fixed top CSS added to audio controls when the height of an <audio> element is adjusted on iOS. (99548840),,https://bugs.webkit.org/buglist.cgi?content=99548840
-,17,Media,Fixed Netflix.com playback error S7381-1203. (103561991),,"https://bugs.webkit.org/buglist.cgi?content=S7381 
-https://bugs.webkit.org/buglist.cgi?content=1203 
-https://bugs.webkit.org/buglist.cgi?content=103561991"
+,17,Media,Fixed Netflix.com playback error S7381-1203. (103561991),,https://bugs.webkit.org/buglist.cgi?content=103561991
 ,17,Media,Fixed sound echos in higher speed video playback. (103940613),,https://bugs.webkit.org/buglist.cgi?content=103940613
 ,17,Media,Fixed SourceBuffer.timestampOffset behavior with WebM content. (105801920),,https://bugs.webkit.org/buglist.cgi?content=105801920
 ,17,Media,Fixed bufferedchange event to fire whenever an eviction occurs. (106168510),,https://bugs.webkit.org/buglist.cgi?content=106168510
 ,17,Media,Fixed MediaSource duration change algorithm to correctly update the duration. (106858912),,https://bugs.webkit.org/buglist.cgi?content=106858912
 ,17,Media,Fixed playing event to fire earlier. (107041118),,https://bugs.webkit.org/buglist.cgi?content=107041118
 ,17,Media,Fixed video playback failure for content that uses the prefixed WebKit EME APIs. (107202864),,https://bugs.webkit.org/buglist.cgi?content=107202864
-,17,Media,Fixed Netflix.com playback error S7361-1253. (108052652),,"https://bugs.webkit.org/buglist.cgi?content=S7361 
-https://bugs.webkit.org/buglist.cgi?content=1253 
-https://bugs.webkit.org/buglist.cgi?content=108052652"
+,17,Media,Fixed Netflix.com playback error S7361-1253. (108052652),,https://bugs.webkit.org/buglist.cgi?content=108052652
 ,17,Media,Fixed video playback in Safari unexpectedly interrupting other apps playing audio. (108741963),,https://bugs.webkit.org/buglist.cgi?content=108741963
 ,17,Media,Fixed MediaRecorder producing empty chunks when attaching a MediaStream before the context in a canvas is created. (109705910),,https://bugs.webkit.org/buglist.cgi?content=109705910
 ,17,Media,Fixed muting capture in all other tabs when Safari starts camera and/or microphone capture in a tab. (109896538),,https://bugs.webkit.org/buglist.cgi?content=109896538
@@ -1304,8 +1297,7 @@ https://bugs.webkit.org/buglist.cgi?content=108052652"
 ,17,Web API,"Added support for <link rel=""modulepreload"">. (88670991)",,https://bugs.webkit.org/buglist.cgi?content=88670991
 ,17,Web API,Added support for the focus fixup rule. (89902824),https://html.spec.whatwg.org/multipage/interaction.html#focus-fixup-rule,https://bugs.webkit.org/buglist.cgi?content=89902824
 ,17,Web API,Added support for using relative URLs in the WebSocket constructor and HTTP(S) schemes. (101929623),,https://bugs.webkit.org/buglist.cgi?content=101929623
-,17,Web API,Added support for Ed25519 cryptography. (105264767),,"https://bugs.webkit.org/buglist.cgi?content=Ed25519 
-https://bugs.webkit.org/buglist.cgi?content=105264767"
+,17,Web API,Added support for Ed25519 cryptography. (105264767),,https://bugs.webkit.org/buglist.cgi?content=105264767
 ,17,Web API,Added support for URL.canParse(). (106934916),,https://bugs.webkit.org/buglist.cgi?content=106934916
 ,17,Web API,Added support for customElements.getName method. (108411398),,https://bugs.webkit.org/buglist.cgi?content=108411398
 ,17,Web API,Added support for two-parameter delete() and has() on URLSearchParams. (108949109),,https://bugs.webkit.org/buglist.cgi?content=108949109
@@ -1357,7 +1349,9 @@ https://bugs.webkit.org/buglist.cgi?content=105264767"
 ,17,Web API,Fixed Service Worker redirect losing the hash fragment. (111208014),,https://bugs.webkit.org/buglist.cgi?content=111208014
 ,17,Web API,Fixed camera RAW files picked via file input getting returned as PNG on change. (111231838),,https://bugs.webkit.org/buglist.cgi?content=111231838
 ,17,Web API,Fixed emoji characters sometimes getting incorrectly drawn in text style. (111411175),,https://bugs.webkit.org/buglist.cgi?content=111411175
-,17,Web API,Fixed HTMLTableSectionElement.insertRow(0) and HTMLTableRowElement.insertCell(0). (111791597),,https://bugs.webkit.org/buglist.cgi?content=111791597
+,17,Web API,Fixed HTMLTableSectionElement.insertRow(0) and HTMLTableRowElement.insertCell(0). (111791597),,"https://bugs.webkit.org/buglist.cgi?content=0 
+https://bugs.webkit.org/buglist.cgi?content=0 
+https://bugs.webkit.org/buglist.cgi?content=111791597"
 ,17,Web API,Stopped parsing <command> as if it has no end tag. (107416609),,https://bugs.webkit.org/buglist.cgi?content=107416609
 ,17,Web API,Removed vestigal support for <layer> and <nolayer> from the HTML parser. (107554605),,https://bugs.webkit.org/buglist.cgi?content=107554605
 ,17,Web API,Removed deprecated uppercase URL attribute alias on the WebSocket interface. (109151597),,https://bugs.webkit.org/buglist.cgi?content=109151597
@@ -1373,8 +1367,7 @@ https://bugs.webkit.org/buglist.cgi?content=105264767"
 ,17,Web Inspector,Added the Color Scheme toggle to user preferences overrides popover. (105186265),,https://bugs.webkit.org/buglist.cgi?content=105186265
 ,17,Web Inspector,Added support for showing rulers when highlighting elements in element selection mode. (105504143),,https://bugs.webkit.org/buglist.cgi?content=105504143
 ,17,Web Inspector,Added editing controls for variation axes in the Fonts sidebar of the Elements tab. (106110217),,https://bugs.webkit.org/buglist.cgi?content=106110217
-,17,Web Inspector,Added support for ES2022 Private Fields when inspecting and logging JavaScript objects. (107863310),,"https://bugs.webkit.org/buglist.cgi?content=ES2022 
-https://bugs.webkit.org/buglist.cgi?content=107863310"
+,17,Web Inspector,Added support for ES2022 Private Fields when inspecting and logging JavaScript objects. (107863310),,https://bugs.webkit.org/buglist.cgi?content=107863310
 ,17,Web Inspector,Added support for viewing the target of a WeakRef. (109475228),,https://bugs.webkit.org/buglist.cgi?content=109475228
 ,17,Web Inspector,Fixed removing a CSS declaration when tabbing though the CSS selector in the Styles panel. (100492875),,https://bugs.webkit.org/buglist.cgi?content=100492875
 ,17,Web Inspector,Fixed Step Over behaving like Resume when stepping over a function with a falsy conditional breakpoint in the Sources tab. (101604843),,https://bugs.webkit.org/buglist.cgi?content=101604843
@@ -1441,8 +1434,7 @@ https://bugs.webkit.org/buglist.cgi?content=107863310"
 ,17.1,Web API,Fixed intermittent removal of adoptedStyleSheet CSSStyleSheet instances when assigning an adoptedStyleSheet array.  (107768559),,https://bugs.webkit.org/buglist.cgi?content=107768559
 ,17.1,Web API,Fixed: Improved the performance of IntersectionObserver operations during scrolling.  (111120491),,https://bugs.webkit.org/buglist.cgi?content=111120491
 ,17.1,Web API,Fixed ElementInternals.setFormValue(<nullish value>) to clear the submission value.  (111802198),,https://bugs.webkit.org/buglist.cgi?content=111802198
-,17.1,Web API,Fixed keyboard scroll not stopping after pressing the down arrow if keyup is default prevented.  (112396756) (FB12647732),,"https://bugs.webkit.org/buglist.cgi?content=112396756 
-https://bugs.webkit.org/buglist.cgi?content=FB12647732"
+,17.1,Web API,Fixed keyboard scroll not stopping after pressing the down arrow if keyup is default prevented.  (112396756) (FB12647732),,https://bugs.webkit.org/buglist.cgi?content=112396756
 ,17.1,Web API,Fixed window.postMessage with OffscreenCanvas with an isolated world message listener.  (112618195),,https://bugs.webkit.org/buglist.cgi?content=112618195
 ,17.1,Web API,Fixed a bug that could cause a nested popover element within a shadow DOM to improperly dismiss its ancestor popover.  (113604250),,https://bugs.webkit.org/buglist.cgi?content=113604250
 ,17.1,Web Apps,Fixed handling dismissed notifications on macOS.  (113756668),,https://bugs.webkit.org/buglist.cgi?content=113756668
@@ -1568,8 +1560,7 @@ https://bugs.webkit.org/buglist.cgi?content=FB12647732"
 ,17.2,Media,Fixed RTCRtpSender maxFramerate encoding parameter having no effect.  (112397603),,https://bugs.webkit.org/buglist.cgi?content=112397603
 ,17.2,Media,Fixed handling NaN in audio delay curves.  (114881060),,https://bugs.webkit.org/buglist.cgi?content=114881060
 ,17.2,Media,Fixed WebCodecs hardware encoders losing a frame.  (115252749),,https://bugs.webkit.org/buglist.cgi?content=115252749
-,17.2,Media,Fixed audio elements with event listeners not getting garbage collected.  (116346717) (FB13224538),,"https://bugs.webkit.org/buglist.cgi?content=116346717 
-https://bugs.webkit.org/buglist.cgi?content=FB13224538"
+,17.2,Media,Fixed audio elements with event listeners not getting garbage collected.  (116346717) (FB13224538),,https://bugs.webkit.org/buglist.cgi?content=116346717
 ,17.2,Media,Fixed the close algorithms for audio and video WebCodec decoders and encoders to match specification changes.  (116346725),,https://bugs.webkit.org/buglist.cgi?content=116346725
 ,17.2,Media,Fixed picture-in-picture when the srcObject is a video stream.  (116465668),,https://bugs.webkit.org/buglist.cgi?content=116465668
 ,17.2,Media,Fixed constraints on the maximum width or height causing blurry getDisplayMedia video.  (116810370),,https://bugs.webkit.org/buglist.cgi?content=116810370
@@ -1579,28 +1570,24 @@ https://bugs.webkit.org/buglist.cgi?content=FB13224538"
 ,17.2,Privacy,Added support for blob partitioning.  (94442816),,https://bugs.webkit.org/buglist.cgi?content=94442816
 ,17.2,Rendering,Fixed the scrollbar not updating on CSS color-scheme change.  (99567600),,https://bugs.webkit.org/buglist.cgi?content=99567600
 ,17.2,Rendering,Fixed ignoring calc() values on <colgroup> elements.  (106692191),,https://bugs.webkit.org/buglist.cgi?content=106692191
-,17.2,Rendering,Fixed out-of-flow boxes not showing.  (112733052) (FB12722063),,"https://bugs.webkit.org/buglist.cgi?content=112733052 
-https://bugs.webkit.org/buglist.cgi?content=FB12722063"
+,17.2,Rendering,Fixed out-of-flow boxes not showing.  (112733052) (FB12722063),,https://bugs.webkit.org/buglist.cgi?content=112733052
 ,17.2,Rendering,Fixed out-of-flow <br> to not trigger a line break.  (113208050),,https://bugs.webkit.org/buglist.cgi?content=113208050
 ,17.2,Rendering,Fixed ancestor subgrids’ gutters to add to the extra layer of margin for descendant subgrids.  (114271857),,https://bugs.webkit.org/buglist.cgi?content=114271857
 ,17.2,Rendering,Fixed a bug where swapping to Safari from another app (or tab) would flash black.  (116530284),,https://bugs.webkit.org/buglist.cgi?content=116530284
 ,17.2,Safari,"Fixed website notifications delivered through APNS to appear with the domain name and Safari icon, matching the appearance of website notifications delivered through Web Push.  (116612341)",,https://bugs.webkit.org/buglist.cgi?content=116612341
-,17.2,Safari Extensions,Fixed an issue where dynamic declarativeNetRequest rules would not override static rules.  (107044339) (FB12074742),,"https://bugs.webkit.org/buglist.cgi?content=107044339 
-https://bugs.webkit.org/buglist.cgi?content=FB12074742"
+,17.2,Safari Extensions,Fixed an issue where dynamic declarativeNetRequest rules would not override static rules.  (107044339) (FB12074742),,https://bugs.webkit.org/buglist.cgi?content=107044339
 ,17.2,Safari Extensions,"Fixed behavior of domains, requestDomains, excludedDomains, and excludedRequestDomains declarativeNetRequest values to match subdomains by default.  (117592996)",,https://bugs.webkit.org/buglist.cgi?content=117592996
 ,17.2,Scrolling,"Fixed clicking and dragging the overlay scrollbar that overlaps a composited, positioned descendant of a container with overflow: scroll.  (89598421)",,https://bugs.webkit.org/buglist.cgi?content=89598421
 ,17.2,Scrolling,Fixed scrolling on nested pointer-events: auto inside pointer-events: none.  (110954175),,https://bugs.webkit.org/buglist.cgi?content=110954175
 ,17.2,Scrolling,Fixed a bug that caused some complicated websites to freeze when scrolling.  (113318934),,https://bugs.webkit.org/buglist.cgi?content=113318934
-,17.2,Service Workers,Fixed a cache miss bug in DOMCache that triggered service worker fetch errors.  (115740959) (FB13188943),,"https://bugs.webkit.org/buglist.cgi?content=115740959 
-https://bugs.webkit.org/buglist.cgi?content=FB13188943"
+,17.2,Service Workers,Fixed a cache miss bug in DOMCache that triggered service worker fetch errors.  (115740959) (FB13188943),,https://bugs.webkit.org/buglist.cgi?content=115740959
 ,17.2,SVG,Added the missing default value translate for animateTransform.  (113681862),,https://bugs.webkit.org/buglist.cgi?content=113681862
 ,17.2,SVG,Added support for SVG <image crossorigin>.  (114462749),,https://bugs.webkit.org/buglist.cgi?content=114462749
 ,17.2,SVG,Fixed the motion path anchor point used for SVG when the transform-box is not the view-box.  (108285569),,https://bugs.webkit.org/buglist.cgi?content=108285569
 ,17.2,SVG,Fixed paint-order property to inherit.  (114030037),,https://bugs.webkit.org/buglist.cgi?content=114030037
 ,17.2,SVG,Fixed the SVG mask to work as a mask-resource for the CSS mask-image.  (114465545),,https://bugs.webkit.org/buglist.cgi?content=114465545
 ,17.2,SVG,Fixed repainting an SVG element with a CSS reference filter when the filter changes.  (117047658),,https://bugs.webkit.org/buglist.cgi?content=117047658
-,17.2,Text,Fixed font fallback to ignore generic families for Private-Use Area Unicode codepoints.  (115901340) (FB13197885),,"https://bugs.webkit.org/buglist.cgi?content=115901340 
-https://bugs.webkit.org/buglist.cgi?content=FB13197885"
+,17.2,Text,Fixed font fallback to ignore generic families for Private-Use Area Unicode codepoints.  (115901340) (FB13197885),,https://bugs.webkit.org/buglist.cgi?content=115901340
 ,17.2,Web Animations,Fixed color-scheme to support discrete animation.  (94615599),,https://bugs.webkit.org/buglist.cgi?content=94615599
 ,17.2,Web API,Added support for CanvasRenderingContext2D.reset().  (77842434),,https://bugs.webkit.org/buglist.cgi?content=77842434
 ,17.2,Web API,Enabled responsive images in <link rel=preload>.  (83891023),,https://bugs.webkit.org/buglist.cgi?content=83891023
@@ -1632,19 +1619,15 @@ https://bugs.webkit.org/buglist.cgi?content=FB13197885"
 ,17.2,Web Apps,Added support for copying cookies when saving a website to the Home Screen on iOS and iPadOS.  (104438319),,https://bugs.webkit.org/buglist.cgi?content=104438319
 ,17.2,Web Apps,Users can now enable the status bar from the View menu on macOS.  (109663387),,https://bugs.webkit.org/buglist.cgi?content=109663387
 ,17.2,Web Apps,Users can now set the current page as the homepage for web apps on macOS.  (112819599),,https://bugs.webkit.org/buglist.cgi?content=112819599
-,17.2,Web Apps,"Fixed many common issues such as an icon appearing blurry with jagged edges, lacking padding, or failing to load by improving how web app icons are loaded. If you supply multiple size variants for the preferred icon kind, all sizes are saved, allowing the most appropriate size to be displayed based on context. For example, the largest size variant is shown in Finder’s Gallery view and Quick Look, a medium sized variant is shown in the Dock and Launchpad, while a smaller sized variant is shown in Spotlight.To provide the best user experience, supply at least one opaque, full-bleed maskable square icon in the web app manifest, either as an SVG (any size) or high resolution bitmap (1024x1024). If the web app manifest doesn’t specify any high resolution full-bleed icon, Safari may fall back to the apple-touch-icon if it improves the user experience. If you specify an apple-touch-icon through link elements in the webpage, do not omit these link elements based on user agent detection. When you only supply a transparent icon with custom shape, Safari automatically adjusts spacing between your icon and the standard system background to avoid tangents.  (102449619)",,"https://bugs.webkit.org/buglist.cgi?content=1024 
-https://bugs.webkit.org/buglist.cgi?content=x1024 
-https://bugs.webkit.org/buglist.cgi?content=102449619"
-,17.2,Web Apps,Fixed an issue where page zoom is reset to 100% after quit and relaunch.  (110298546) (FB12233006),,"https://bugs.webkit.org/buglist.cgi?content=110298546 
-https://bugs.webkit.org/buglist.cgi?content=FB12233006"
+,17.2,Web Apps,"Fixed many common issues such as an icon appearing blurry with jagged edges, lacking padding, or failing to load by improving how web app icons are loaded. If you supply multiple size variants for the preferred icon kind, all sizes are saved, allowing the most appropriate size to be displayed based on context. For example, the largest size variant is shown in Finder’s Gallery view and Quick Look, a medium sized variant is shown in the Dock and Launchpad, while a smaller sized variant is shown in Spotlight.To provide the best user experience, supply at least one opaque, full-bleed maskable square icon in the web app manifest, either as an SVG (any size) or high resolution bitmap (1024x1024). If the web app manifest doesn’t specify any high resolution full-bleed icon, Safari may fall back to the apple-touch-icon if it improves the user experience. If you specify an apple-touch-icon through link elements in the webpage, do not omit these link elements based on user agent detection. When you only supply a transparent icon with custom shape, Safari automatically adjusts spacing between your icon and the standard system background to avoid tangents.  (102449619)",,https://bugs.webkit.org/buglist.cgi?content=102449619
+,17.2,Web Apps,Fixed an issue where page zoom is reset to 100% after quit and relaunch.  (110298546) (FB12233006),,https://bugs.webkit.org/buglist.cgi?content=110298546
 ,17.2,Web Apps,Fixed a bug where theme-color is not applied to the title bar in web apps.  (112980819),,https://bugs.webkit.org/buglist.cgi?content=112980819
 ,17.2,Web Apps,Fixed an issue where sign in pages sometimes unexpectely open in Safari instead of the web app.  (113520837),,https://bugs.webkit.org/buglist.cgi?content=113520837
 ,17.2,Web Apps,Fixed an issue where clicking on notifications after 30 seconds from delivery fail to open the web app.  (113757950),,https://bugs.webkit.org/buglist.cgi?content=113757950
 ,17.2,Web Apps,Fixed an issue that repeatedly asks for camera access after relaunching a web app.  (114110664),,https://bugs.webkit.org/buglist.cgi?content=114110664
 ,17.2,Web Apps,Fixed remembering window size for a webpage added to the Dock.  (114534506),,https://bugs.webkit.org/buglist.cgi?content=114534506
 ,17.2,Web Apps,Fixed an issue where a blank window remains on screen after starting a download.  (115457207),,https://bugs.webkit.org/buglist.cgi?content=115457207
-,17.2,Web Apps,Fixed an issue where some login pages unexpectedly open in Safari.  (115527738) (FB13171758),,"https://bugs.webkit.org/buglist.cgi?content=115527738 
-https://bugs.webkit.org/buglist.cgi?content=FB13171758"
+,17.2,Web Apps,Fixed an issue where some login pages unexpectedly open in Safari.  (115527738) (FB13171758),,https://bugs.webkit.org/buglist.cgi?content=115527738
 ,17.2,Web Apps,Fixed a bug where the scope member in the web app manifest is not respected.  (116261588),,https://bugs.webkit.org/buglist.cgi?content=116261588
 ,17.2,Web Apps,Fixed an issue where AutoFill settings in Safari do not take effect in web apps.  (117671220),,https://bugs.webkit.org/buglist.cgi?content=117671220
 ,17.2,Web Apps,Fixed an issue where option+clicking a link failed to start a download.  (117809013),,https://bugs.webkit.org/buglist.cgi?content=117809013
@@ -1655,8 +1638,7 @@ https://bugs.webkit.org/buglist.cgi?content=117809075"
 ,17.2,Web Assembly,Fixed WebAssembly SIMD vectors that can get corrupted when using v128.any_true.  (111050621),,https://bugs.webkit.org/buglist.cgi?content=111050621
 ,17.2,Web Inspector,Added color palette with CSS variables in color picker.  (112099603),,https://bugs.webkit.org/buglist.cgi?content=112099603
 ,17.2,Web Inspector,Added a specialized editor for the CSS steps() timing function.  (113345146),,https://bugs.webkit.org/buglist.cgi?content=113345146
-,17.2,Web Inspector,Fixed: Moved the details sidebar to the bottom when Web Inspector is too narrow.  (63567675) (FB7711657),,"https://bugs.webkit.org/buglist.cgi?content=63567675 
-https://bugs.webkit.org/buglist.cgi?content=FB7711657"
+,17.2,Web Inspector,Fixed: Moved the details sidebar to the bottom when Web Inspector is too narrow.  (63567675) (FB7711657),,https://bugs.webkit.org/buglist.cgi?content=63567675
 ,17.2,Web Inspector,Fixed objects logged to the console with multiple private fields that use the same name.  (109215331),,https://bugs.webkit.org/buglist.cgi?content=109215331
 ,17.2,WebDriver,Fixed dispatched mouse events always having buttons property set to zero.  (116049187),,https://bugs.webkit.org/buglist.cgi?content=116049187
 ,17.2,WebGL,Added support for EXT_blend_func_extended.  (115158977),,https://bugs.webkit.org/buglist.cgi?content=115158977
@@ -1864,13 +1846,10 @@ https://bugs.webkit.org/buglist.cgi?content=FB7711657"
 ,17.4,WebGL,Fixed WebGL OffscreenCanvas returning the previously created WebGL1 context when asking for WebGL2.  (119028794),,https://bugs.webkit.org/buglist.cgi?content=119028794
 ,17.4,WebGL,Fixed WebGL to be available in nested workers.  (120279728),,https://bugs.webkit.org/buglist.cgi?content=120279728
 ,17.4,WebKit,"Fixed HTML content not displaying in a Simulator, affecting projects using the web extension project template.  (121338366)",,https://bugs.webkit.org/buglist.cgi?content=121338366
-,17.4,WebRTC,"Fixed media tracks obtained with {""width"":1920,""height"":1080,""frameRate"":24}.  (61747755)",,"https://bugs.webkit.org/buglist.cgi?content=1920 
-https://bugs.webkit.org/buglist.cgi?content=1080 
-https://bugs.webkit.org/buglist.cgi?content=61747755"
+,17.4,WebRTC,"Fixed media tracks obtained with {""width"":1920,""height"":1080,""frameRate"":24}.  (61747755)",,https://bugs.webkit.org/buglist.cgi?content=61747755
 ,17.4,WebRTC,Fixed triggering resolution scaling in the case of WebRTC maintain-framerate degradationPreference.  (121041723),,https://bugs.webkit.org/buglist.cgi?content=121041723
 ,17.4,WebRTC,Fixed a bug that prevented HTML canvas elements from always being marked dirty on initialization. This could cause some video effects to have choppy animations.  (121257960),,https://bugs.webkit.org/buglist.cgi?content=121257960
-,17.5,Accessibility,Fixed a bug preventing VoiceOver word echoing in some text fields.  (122451549) (FB13592798),,"https://bugs.webkit.org/buglist.cgi?content=122451549 
-https://bugs.webkit.org/buglist.cgi?content=FB13592798"
+,17.5,Accessibility,Fixed a bug preventing VoiceOver word echoing in some text fields.  (122451549) (FB13592798),,https://bugs.webkit.org/buglist.cgi?content=122451549
 ,17.5,Animations,Fixed flickering with multiple accelerated animations and direction changes.  (117815004),,https://bugs.webkit.org/buglist.cgi?content=117815004
 ,17.5,Authentication,Fixed excludeCredentials property being ignored during a passkey registration request.  (124405037),,https://bugs.webkit.org/buglist.cgi?content=124405037
 ,17.5,CSS,Added support for the light-dark() color function.  (123854183),,https://bugs.webkit.org/buglist.cgi?content=123854183
@@ -1884,17 +1863,14 @@ https://bugs.webkit.org/buglist.cgi?content=FB13592798"
 ,17.5,Forms,Fixed fallback native <select> rendering in dark mode.  (123845293),,https://bugs.webkit.org/buglist.cgi?content=123845293
 ,17.5,Media,Added support for WebCodecs AV1 when an AV1 hardware decoder is available.  (123433815),,https://bugs.webkit.org/buglist.cgi?content=123433815
 ,17.5,Media,Fixed scrolling for an element when a video element with pointer-events: none is placed over it.  (118936715),,https://bugs.webkit.org/buglist.cgi?content=118936715
-,17.5,Media,Fixed HTML5 <audio> playback to continue to the next media activity when in the background.  (121268089) (FB13551577),,"https://bugs.webkit.org/buglist.cgi?content=121268089 
-https://bugs.webkit.org/buglist.cgi?content=FB13551577"
+,17.5,Media,Fixed HTML5 <audio> playback to continue to the next media activity when in the background.  (121268089) (FB13551577),,https://bugs.webkit.org/buglist.cgi?content=121268089
 ,17.5,Media,Fixed AV1 to decode in hardware on iPhone 15 Pro.  (121924090),,https://bugs.webkit.org/buglist.cgi?content=121924090
 ,17.5,Media,Fixed audio distortion over internal speakers when streaming content in web browsers.  (122590884),,https://bugs.webkit.org/buglist.cgi?content=122590884
-,17.5,Media,Fixed firing loadeddata events for <audio> and <video> on page load.  (124079735) (FB13675360),,"https://bugs.webkit.org/buglist.cgi?content=124079735 
-https://bugs.webkit.org/buglist.cgi?content=FB13675360"
+,17.5,Media,Fixed firing loadeddata events for <audio> and <video> on page load.  (124079735) (FB13675360),,https://bugs.webkit.org/buglist.cgi?content=124079735
 ,17.5,Rendering,Fixed adjusting the size of the scrollable area when changing betwen non-overlay and overlay scrollbars.  (117507268),,https://bugs.webkit.org/buglist.cgi?content=117507268
 ,17.5,Rendering,Fixed flickering when showing a layer on a painted background for the first time by avoiding async image decoding.  (117533495),,https://bugs.webkit.org/buglist.cgi?content=117533495
 ,17.5,Rendering,Fixed line breaking before or between ruby sequences.  (122663646),,https://bugs.webkit.org/buglist.cgi?content=122663646
-,17.5,Web API,Fixed mousemove events in an iframe when the mouse is clicked from outside the iframe and then moves into it while the button is held down.  (120540148) (FB13517196),,"https://bugs.webkit.org/buglist.cgi?content=120540148 
-https://bugs.webkit.org/buglist.cgi?content=FB13517196"
+,17.5,Web API,Fixed mousemove events in an iframe when the mouse is clicked from outside the iframe and then moves into it while the button is held down.  (120540148) (FB13517196),,https://bugs.webkit.org/buglist.cgi?content=120540148
 ,17.5,Web Apps,Fixed several issues that caused Web Push to not show notifications when the web app or Safari was not already running.  (124075358),,https://bugs.webkit.org/buglist.cgi?content=124075358
 ,17.5,Web Inspector,Fixed info and debug buttons not appearing in the Console Tab until new console messages are displayed.  (122923625),,https://bugs.webkit.org/buglist.cgi?content=122923625
 ,17.5,WebGL,Added support for EXT_conservative_depth and NV_shader_noperspective_interpolation.  (123854629),,https://bugs.webkit.org/buglist.cgi?content=123854629
@@ -1902,12 +1878,14 @@ https://bugs.webkit.org/buglist.cgi?content=FB13517196"
 ,17.5,WebRTC,Fixed no incoming video in Teams VA.  (124406255),,https://bugs.webkit.org/buglist.cgi?content=124406255
 ,17.5,WebRTC,Fixed the camera pausing occasionally when torch is enabled.  (124434403),,https://bugs.webkit.org/buglist.cgi?content=124434403
 ,17.5,WKWebView,Added logging MarketplaceKit errors to the JavaScript console to make errors easier to debug.  (123475774),,https://bugs.webkit.org/buglist.cgi?content=123475774
-,17.6 Beta,Media,Fixed firing loadeddata events for <audio> and <video> on page load.  (124079735) (FB13675360),,"https://bugs.webkit.org/buglist.cgi?content=124079735 
-https://bugs.webkit.org/buglist.cgi?content=FB13675360"
-,17.6 Beta,PDF,Fixed PDF previews appearing tiny in the top left corner.  (125796665),,https://bugs.webkit.org/buglist.cgi?content=125796665
-,17.6 Beta,Safari Web Extensions,Fixed an issue where Safari Web Extension background pages would stop responding after about 30 seconds.  (127681420),,https://bugs.webkit.org/buglist.cgi?content=127681420
-,17.6 Beta,Web Inspector,Fixed showing additional Safari tabs from an iOS device in the Develop menu.  (124876362),,https://bugs.webkit.org/buglist.cgi?content=124876362
-,17.6 Beta,WebRTC,Fixed navigator.mediaDevices.getDisplayMedia() in WKWebView.  (128988615),,https://bugs.webkit.org/buglist.cgi?content=128988615
+,17.6,CSS,Added support for the safe keyword in Flexbox properties.  (130118241),,https://bugs.webkit.org/buglist.cgi?content=130118241
+,17.6,Media,Fixed firing loadeddata events for <audio> and <video> on page load.  (124079735) (FB13675360),,https://bugs.webkit.org/buglist.cgi?content=124079735
+,17.6,Media,Fixed multiple cases of audio distortion occurring when using AudioWorklets.  (128551401),,https://bugs.webkit.org/buglist.cgi?content=128551401
+,17.6,PDF,Fixed PDF previews appearing tiny in the top left corner.  (125796665),,https://bugs.webkit.org/buglist.cgi?content=125796665
+,17.6,Rendering,Fixed scrolling of content overflowing a flex item in an end-aligned flex container.  (131201271),,https://bugs.webkit.org/buglist.cgi?content=131201271
+,17.6,Safari Web Extensions,Fixed an issue where Safari Web Extension background pages would stop responding after about 30 seconds.  (127681420),,https://bugs.webkit.org/buglist.cgi?content=127681420
+,17.6,Web Inspector,Fixed showing additional Safari tabs from an iOS device in the Develop menu.  (124876362),,https://bugs.webkit.org/buglist.cgi?content=124876362
+,17.6,WebRTC,Fixed navigator.mediaDevices.getDisplayMedia() in WKWebView.  (128988615),,https://bugs.webkit.org/buglist.cgi?content=128988615
 ,18 Beta,Accessibility,"Added support for <input type=""datetime"">, <input type=""datetime-local"">, and <time> elements.  (118180250)",,https://bugs.webkit.org/buglist.cgi?content=118180250
 ,18 Beta,Accessibility,Added support for ariaBrailleLabel and ariaBrailleRoleDescription element reflection properties.  (123926949),,https://bugs.webkit.org/buglist.cgi?content=123926949
 ,18 Beta,Accessibility,Fixed role assignment for <header> inside <main> and sectioning elements.  (48370244),,https://bugs.webkit.org/buglist.cgi?content=48370244
@@ -1992,8 +1970,7 @@ https://bugs.webkit.org/buglist.cgi?content=FB13675360"
 ,18 Beta,Forms,Added haptic feedback for <input type=checkbox switch> on iOS.  (125474921),,https://bugs.webkit.org/buglist.cgi?content=125474921
 ,18 Beta,Forms,Fixed displayed datalist dropdown to sync its options elements after a DOM update.  (54690831),,https://bugs.webkit.org/buglist.cgi?content=54690831
 ,18 Beta,Forms,Fixed <select multiple> scrollbars to match the used color scheme.  (123807167),,https://bugs.webkit.org/buglist.cgi?content=123807167
-,18 Beta,Forms,Fixed updating the input value when selecting an <option> from a <datalist> element.  (124784204) (FB13688998),,"https://bugs.webkit.org/buglist.cgi?content=124784204 
-https://bugs.webkit.org/buglist.cgi?content=FB13688998"
+,18 Beta,Forms,Fixed updating the input value when selecting an <option> from a <datalist> element.  (124784204) (FB13688998),,https://bugs.webkit.org/buglist.cgi?content=124784204
 ,18 Beta,Forms,"Fixed the value attribute not getting displayed in an input element with type=""email"" and the multiple attribute.  (125221858)",,https://bugs.webkit.org/buglist.cgi?content=125221858
 ,18 Beta,Forms,Fixed the iOS animation for <input type=checkbox switch>.  (125563501),,https://bugs.webkit.org/buglist.cgi?content=125563501
 ,18 Beta,Forms,Fixed form controls drawing with an active appearance when the window is inactive.  (127391198),,https://bugs.webkit.org/buglist.cgi?content=127391198
@@ -2001,8 +1978,7 @@ https://bugs.webkit.org/buglist.cgi?content=FB13688998"
 ,18 Beta,History,Fixed the properties of History to throw a SecurityError when not in a fully active Document.  (118750576),,https://bugs.webkit.org/buglist.cgi?content=118750576
 ,18 Beta,HTML,Fixed “about:blank” document.referrer initialization.  (97689906),,https://bugs.webkit.org/buglist.cgi?content=97689906
 ,18 Beta,HTML,Fixed parsing a self-closing SVG script element. It now successfully executes.  (121887875),,https://bugs.webkit.org/buglist.cgi?content=121887875
-,18 Beta,Images,Removed support for JPEG2000.  (35161822),,"https://bugs.webkit.org/buglist.cgi?content=JPEG2000 
-https://bugs.webkit.org/buglist.cgi?content=35161822"
+,18 Beta,Images,Removed support for JPEG2000.  (35161822),,https://bugs.webkit.org/buglist.cgi?content=35161822
 ,18 Beta,JavaScript,Added support for the v flag with RegExp.prototype[Symbol.matchAll].  (126017731),,https://bugs.webkit.org/buglist.cgi?content=126017731
 ,18 Beta,JavaScript,Added support for Unicode 15.1.0 characters in RegExp.  (126863692),,https://bugs.webkit.org/buglist.cgi?content=126863692
 ,18 Beta,JavaScript,"Fixed RegExp.prototype.@@split to update the following legacy RegExp static properties: RegExp.input, RegExp.lastMatch, RegExp.lastParen, RegExp.leftContext, RegExp.rightContext, and RegExp.$1, ... RegExp.$9.  (99865597)",,https://bugs.webkit.org/buglist.cgi?content=99865597
@@ -2038,8 +2014,7 @@ https://bugs.webkit.org/buglist.cgi?content=35161822"
 ,18 Beta,JavaScript,Fixed RegEx lookbehinds differing from v8.  (127440248),,https://bugs.webkit.org/buglist.cgi?content=127440248
 ,18 Beta,JavaScript,Fixed fractionalDigits of Intl.DurationFormat to be treated as at most 9 digits if it is omitted.  (129145390),,https://bugs.webkit.org/buglist.cgi?content=129145390
 ,18 Beta,Loading,Fixed navigator.cookieEnabled to return false when cookies are blocked.  (121284878),,https://bugs.webkit.org/buglist.cgi?content=121284878
-,18 Beta,Media,Added support for WebRTC HEVC RFC 7789 RTP Payload Format.  (112001659),,"https://bugs.webkit.org/buglist.cgi?content=7789 
-https://bugs.webkit.org/buglist.cgi?content=112001659"
+,18 Beta,Media,Added support for WebRTC HEVC RFC 7789 RTP Payload Format.  (112001659),,https://bugs.webkit.org/buglist.cgi?content=112001659
 ,18 Beta,Media,"Added support for Viewer on macOS, a full window video watching mode for web pages with a prominent video element.  (114218891)",,https://bugs.webkit.org/buglist.cgi?content=114218891
 ,18 Beta,Media,Added support for MSE in workers.  (123052315),,https://bugs.webkit.org/buglist.cgi?content=123052315
 ,18 Beta,Media,Fixed video sound coming from another window after changing tabs in the Tab Bar in visionOS.  (120018549),,https://bugs.webkit.org/buglist.cgi?content=120018549
@@ -2096,8 +2071,7 @@ https://bugs.webkit.org/buglist.cgi?content=112001659"
 ,18 Beta,Web API,Added support for feature detecting text fragments by exposing document.fragmentDirective.  (127650843),,https://bugs.webkit.org/buglist.cgi?content=127650843
 ,18 Beta,Web API,Added support for the bytes() method to Request and Response.  (128407577),,https://bugs.webkit.org/buglist.cgi?content=128407577
 ,18 Beta,Web API,Added support for bytes() to Blob and PushMessageData.  (128418858),,https://bugs.webkit.org/buglist.cgi?content=128418858
-,18 Beta,Web API,Fixed cssText setter to change the style attribute when the serialization differs.  (29861252) (FB5535475),,"https://bugs.webkit.org/buglist.cgi?content=29861252 
-https://bugs.webkit.org/buglist.cgi?content=FB5535475"
+,18 Beta,Web API,Fixed cssText setter to change the style attribute when the serialization differs.  (29861252) (FB5535475),,https://bugs.webkit.org/buglist.cgi?content=29861252
 ,18 Beta,Web API,Fixed history.pushState() and history.replaceState() to ignore the title argument.  (75695791),,https://bugs.webkit.org/buglist.cgi?content=75695791
 ,18 Beta,Web API,Fixed URL text fragment directives not fully stripped from JavaScript.  (107326333),,https://bugs.webkit.org/buglist.cgi?content=107326333
 ,18 Beta,Web API,Fixed showPicker() method to trigger suggestions from a datalist.  (116017782),,https://bugs.webkit.org/buglist.cgi?content=116017782

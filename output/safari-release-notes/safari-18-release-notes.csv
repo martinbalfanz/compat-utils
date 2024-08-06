@@ -82,8 +82,7 @@
 ,18 Beta,Forms,Added haptic feedback for <input type=checkbox switch> on iOS.  (125474921),,https://bugs.webkit.org/buglist.cgi?content=125474921
 ,18 Beta,Forms,Fixed displayed datalist dropdown to sync its options elements after a DOM update.  (54690831),,https://bugs.webkit.org/buglist.cgi?content=54690831
 ,18 Beta,Forms,Fixed <select multiple> scrollbars to match the used color scheme.  (123807167),,https://bugs.webkit.org/buglist.cgi?content=123807167
-,18 Beta,Forms,Fixed updating the input value when selecting an <option> from a <datalist> element.  (124784204) (FB13688998),,"https://bugs.webkit.org/buglist.cgi?content=124784204 
-https://bugs.webkit.org/buglist.cgi?content=FB13688998"
+,18 Beta,Forms,Fixed updating the input value when selecting an <option> from a <datalist> element.  (124784204) (FB13688998),,https://bugs.webkit.org/buglist.cgi?content=124784204
 ,18 Beta,Forms,"Fixed the value attribute not getting displayed in an input element with type=""email"" and the multiple attribute.  (125221858)",,https://bugs.webkit.org/buglist.cgi?content=125221858
 ,18 Beta,Forms,Fixed the iOS animation for <input type=checkbox switch>.  (125563501),,https://bugs.webkit.org/buglist.cgi?content=125563501
 ,18 Beta,Forms,Fixed form controls drawing with an active appearance when the window is inactive.  (127391198),,https://bugs.webkit.org/buglist.cgi?content=127391198
@@ -91,8 +90,7 @@ https://bugs.webkit.org/buglist.cgi?content=FB13688998"
 ,18 Beta,History,Fixed the properties of History to throw a SecurityError when not in a fully active Document.  (118750576),,https://bugs.webkit.org/buglist.cgi?content=118750576
 ,18 Beta,HTML,Fixed “about:blank” document.referrer initialization.  (97689906),,https://bugs.webkit.org/buglist.cgi?content=97689906
 ,18 Beta,HTML,Fixed parsing a self-closing SVG script element. It now successfully executes.  (121887875),,https://bugs.webkit.org/buglist.cgi?content=121887875
-,18 Beta,Images,Removed support for JPEG2000.  (35161822),,"https://bugs.webkit.org/buglist.cgi?content=JPEG2000 
-https://bugs.webkit.org/buglist.cgi?content=35161822"
+,18 Beta,Images,Removed support for JPEG2000.  (35161822),,https://bugs.webkit.org/buglist.cgi?content=35161822
 ,18 Beta,JavaScript,Added support for the v flag with RegExp.prototype[Symbol.matchAll].  (126017731),,https://bugs.webkit.org/buglist.cgi?content=126017731
 ,18 Beta,JavaScript,Added support for Unicode 15.1.0 characters in RegExp.  (126863692),,https://bugs.webkit.org/buglist.cgi?content=126863692
 ,18 Beta,JavaScript,"Fixed RegExp.prototype.@@split to update the following legacy RegExp static properties: RegExp.input, RegExp.lastMatch, RegExp.lastParen, RegExp.leftContext, RegExp.rightContext, and RegExp.$1, ... RegExp.$9.  (99865597)",,https://bugs.webkit.org/buglist.cgi?content=99865597
@@ -128,8 +126,7 @@ https://bugs.webkit.org/buglist.cgi?content=35161822"
 ,18 Beta,JavaScript,Fixed RegEx lookbehinds differing from v8.  (127440248),,https://bugs.webkit.org/buglist.cgi?content=127440248
 ,18 Beta,JavaScript,Fixed fractionalDigits of Intl.DurationFormat to be treated as at most 9 digits if it is omitted.  (129145390),,https://bugs.webkit.org/buglist.cgi?content=129145390
 ,18 Beta,Loading,Fixed navigator.cookieEnabled to return false when cookies are blocked.  (121284878),,https://bugs.webkit.org/buglist.cgi?content=121284878
-,18 Beta,Media,Added support for WebRTC HEVC RFC 7789 RTP Payload Format.  (112001659),,"https://bugs.webkit.org/buglist.cgi?content=7789 
-https://bugs.webkit.org/buglist.cgi?content=112001659"
+,18 Beta,Media,Added support for WebRTC HEVC RFC 7789 RTP Payload Format.  (112001659),,https://bugs.webkit.org/buglist.cgi?content=112001659
 ,18 Beta,Media,"Added support for Viewer on macOS, a full window video watching mode for web pages with a prominent video element.  (114218891)",,https://bugs.webkit.org/buglist.cgi?content=114218891
 ,18 Beta,Media,Added support for MSE in workers.  (123052315),,https://bugs.webkit.org/buglist.cgi?content=123052315
 ,18 Beta,Media,Fixed video sound coming from another window after changing tabs in the Tab Bar in visionOS.  (120018549),,https://bugs.webkit.org/buglist.cgi?content=120018549
@@ -186,8 +183,7 @@ https://bugs.webkit.org/buglist.cgi?content=112001659"
 ,18 Beta,Web API,Added support for feature detecting text fragments by exposing document.fragmentDirective.  (127650843),,https://bugs.webkit.org/buglist.cgi?content=127650843
 ,18 Beta,Web API,Added support for the bytes() method to Request and Response.  (128407577),,https://bugs.webkit.org/buglist.cgi?content=128407577
 ,18 Beta,Web API,Added support for bytes() to Blob and PushMessageData.  (128418858),,https://bugs.webkit.org/buglist.cgi?content=128418858
-,18 Beta,Web API,Fixed cssText setter to change the style attribute when the serialization differs.  (29861252) (FB5535475),,"https://bugs.webkit.org/buglist.cgi?content=29861252 
-https://bugs.webkit.org/buglist.cgi?content=FB5535475"
+,18 Beta,Web API,Fixed cssText setter to change the style attribute when the serialization differs.  (29861252) (FB5535475),,https://bugs.webkit.org/buglist.cgi?content=29861252
 ,18 Beta,Web API,Fixed history.pushState() and history.replaceState() to ignore the title argument.  (75695791),,https://bugs.webkit.org/buglist.cgi?content=75695791
 ,18 Beta,Web API,Fixed URL text fragment directives not fully stripped from JavaScript.  (107326333),,https://bugs.webkit.org/buglist.cgi?content=107326333
 ,18 Beta,Web API,Fixed showPicker() method to trigger suggestions from a datalist.  (116017782),,https://bugs.webkit.org/buglist.cgi?content=116017782
