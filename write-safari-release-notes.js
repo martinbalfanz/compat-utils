@@ -1,6 +1,6 @@
-import { parseArgs } from "jsr:@std/cli/parse-args";
-import { launch } from "https://deno.land/x/astral/mod.ts";
-import { writeCSV } from "jsr:@vslinko/csv";
+import { parseArgs } from "./deps.js";
+import { launch } from "./deps.js";
+import { writeCSV } from "./deps.js";
 
 const args = parseArgs(Deno.args);
 const inputUrl = args._[0] ? String(args._[0]) : null;
@@ -24,7 +24,7 @@ async function getLinks() {
         Array.from(
           document.querySelectorAll('a[href*="safari-release-notes/"]')
         ).map((a) => a.href
-      )
+             )
       )
     );
     return hrefs;
@@ -45,8 +45,8 @@ async function parseReleaseNotes(url) {
 
     if (mainContent) {
       const version =
-        document.querySelector("h1")?.textContent?.match(/Safari (\d+(.\d+)?(\sBeta)?)/)?.[1] ||
-          "unknown_version";
+            document.querySelector("h1")?.textContent?.match(/Safari (\d+(.\d+)?(\sBeta)?)/)?.[1] ||
+            "unknown_version";
 
       mainContent.querySelectorAll("h3").forEach((h3) => {
         const category = getTextContent(h3);
@@ -59,7 +59,7 @@ async function parseReleaseNotes(url) {
             let contentSibling = nextSibling.nextElementSibling;
             while (
               contentSibling &&
-              !["H3", "H4"].includes(contentSibling.tagName)
+                !["H3", "H4"].includes(contentSibling.tagName)
             ) {
               if (contentSibling.tagName === "UL") {
                 const items = Array.from(
