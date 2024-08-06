@@ -28,9 +28,37 @@ const csv2 = await Deno.readTextFile(args.input2);
 const data1 = await parse(csv1, { skipFirstRow: false });
 const data2 = await parse(csv2, { skipFirstRow: false });
 
+function cleanupRN(text) {
+  return text.replace(/(\s*\([^)]*\))+$/g, '').trim();
+}
+
+function extractQualifierWithAt(text) {
+  const match = text.match(/\(\d+@[^)]+\)/);
+  return match ? match[0] : null;
+}
+
+function extractNumericQualifier(text) {
+  const match = text.match(/\(\d+\)$/);
+  return match ? match[0] : null;
+}
+
 function isSimilar(text1, text2) {
-    return fuzzball.ratio(text1, text2) >= threshold;
+  if (text1 === text2) {
+    return true;
   }
+
+  const qualifier1WithAt = extractQualifierWithAt(text1);
+  const qualifier2WithAt = extractQualifierWithAt(text2);
+
+  if (qualifier1WithAt && qualifier2WithAt && qualifier1WithAt === qualifier2WithAt) {
+    return true;
+  }
+  const cleanedText1 = cleanupRN(text1);
+  const cleanedText2 = cleanupRN(text2);
+
+  return cleanedText1 === cleanedText2;
+  // return fuzzball.ratio(text1, text2) >= threshold;
+}
 
 const combinedData = [];
 const totalRows = data1.length + data2.length;

@@ -72,8 +72,8 @@ async function parseReleaseNotes(url) {
                   ).map((a) => a.href) || [];
 
                   const refs = Array.from(
-                    getTextContent(item).match(/[a-zA-Z]*\d{4,}/g) || []
-                  ).map((ref) => `https://bugs.webkit.org/buglist.cgi?content=${ref}`) || [];
+                    getTextContent(item).match(/\((\d+(@[^)]+)?)\)/g) || []
+                  ).map((ref) => `https://bugs.webkit.org/buglist.cgi?content=${ref.replace("(", "").replace(")", "").trim()}`) || [];
 
                   data.push(["", version, category, getTextContent(item), links.join(" \n"), refs.join(" \n")])
                 }
