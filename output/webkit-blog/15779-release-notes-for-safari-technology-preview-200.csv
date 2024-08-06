@@ -1,0 +1,9 @@
+200,,CSS,Fixed: Optimized Masonry Grids for items with a span of 1. (280919@main)  (131407028),https://commits.webkit.org/280919@main,https://bugs.webkit.org/buglist.cgi?content=280919@main
+200,,JavaScript,Implemented Uint8Array.prototype.toHex in SIMD. (280719@main)  (131249821),https://commits.webkit.org/280719@main,https://bugs.webkit.org/buglist.cgi?content=280719@main
+200,,JavaScript,Fixed class field initializers to disallow yield and await expressions. (280837@main)  (119044881),https://commits.webkit.org/280837@main,https://bugs.webkit.org/buglist.cgi?content=280837@main
+200,,JavaScript,Fixed DestructuringAssignmentTarget to be evaluated prior to calling [[Get]] or a stepping iterator. (281013@main)  (121960976),https://commits.webkit.org/281013@main,https://bugs.webkit.org/buglist.cgi?content=281013@main
+200,,JavaScript,Fixed throwing an exception for negative exponent in BigInt in the JIT compiler. (280841@main)  (131051084),https://commits.webkit.org/280841@main,https://bugs.webkit.org/buglist.cgi?content=280841@main
+200,,JavaScript,Fixed RegExp range quantifier to allow 2^53 – 1. (280953@main)  (131710011),https://commits.webkit.org/280953@main,https://bugs.webkit.org/buglist.cgi?content=280953@main
+200,,Rendering,Fixed garbled bold text caused by glyph lookup using the wrong font’s glyph IDs when multiple installed fonts have the same name. (281022@main)  (129891005) (FB13909556),https://commits.webkit.org/281022@main,https://bugs.webkit.org/buglist.cgi?content=281022@main
+200,,Rendering,Fixed scrolling of content overflowing a flex item in an end-aligned flex container. (279992@main)  (131201271),https://commits.webkit.org/279992@main,https://bugs.webkit.org/buglist.cgi?content=279992@main
+200,,Web Extensions,Fixed Service Workers not appearing in the Develop menu or remote Web Inspector menu. (280912@main)  (130712941),https://commits.webkit.org/280912@main,https://bugs.webkit.org/buglist.cgi?content=280912@main
