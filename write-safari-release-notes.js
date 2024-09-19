@@ -35,7 +35,7 @@ async function getLinks() {
 
 async function parseReleaseNotes(url) {
   await page.goto(url, { waitUntil: "networkidle2" });
-  await page.waitForSelector("#main");
+  await page.waitForSelector("#app-main");
 
   const data = await page.evaluate(() => {
     const data = [];
