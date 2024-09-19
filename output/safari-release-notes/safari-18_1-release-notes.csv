@@ -1,0 +1,12 @@
+,18.1 Beta,Accessibility,Fixed display: contents on tbody elements preventing table rows from being properly exposed in the accessibility tree.  (129131780),,https://bugs.webkit.org/buglist.cgi?content=129131780
+,18.1 Beta,Accessibility,Fixed the handling of ElementInternals.ariaValueNow null values so the right value is exposed to assistive technologies.  (129218234),,https://bugs.webkit.org/buglist.cgi?content=129218234
+,18.1 Beta,Accessibility,Fixed tables with hidden rows reporting wrong counts and block access to some rows in VoiceOver.  (129612387),,https://bugs.webkit.org/buglist.cgi?content=129612387
+,18.1 Beta,Accessibility,"Fixed role=""menu"" elements to allow child groups with menuitem children.  (131838275)",,https://bugs.webkit.org/buglist.cgi?content=131838275
+,18.1 Beta,Accessibility,Fixed updating the accessibility tree when text underneath an aria-describedby element changes.  (131877635),,https://bugs.webkit.org/buglist.cgi?content=131877635
+,18.1 Beta,Accessibility,Fixed elements with display: contents preventing items from being read on iOS.  (132265522),,https://bugs.webkit.org/buglist.cgi?content=132265522
+,18.1 Beta,Accessibility,Fixed VoiceOver not finding any content in a table when display: table is applied to tbody elements.  (132820485),,https://bugs.webkit.org/buglist.cgi?content=132820485
+,18.1 Beta,Authentication,Fixed an issue using large credential lists with security keys.  (133711978),,https://bugs.webkit.org/buglist.cgi?content=133711978
+,18.1 Beta,Editing,Fixed inserting text before a <picture> element inserting the text after the element instead.  (134378236),,https://bugs.webkit.org/buglist.cgi?content=134378236
+,18.1 Beta,Media,Fixed a bug in WebCodecs where audio and video codecs with pending work could be prematurely garbage collected.  (134297589),,https://bugs.webkit.org/buglist.cgi?content=134297589
+,18.1 Beta,Networking,"Fixed a bug where Cross-Origin-Opener-Policy header fields in the response of iframes were not ignored, resulting in window.opener being null after multiple cross-origin navigations of the main frame.  (132840366)",,https://bugs.webkit.org/buglist.cgi?content=132840366
+,18.1 Beta,WKWebView,Added support for the Writing Tools API to enable and customize the behavior in apps.  (128340967),,https://bugs.webkit.org/buglist.cgi?content=128340967
