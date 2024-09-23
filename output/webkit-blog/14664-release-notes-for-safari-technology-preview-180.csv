@@ -1,0 +1,23 @@
+180,,Accessibility,"Fixed parsing the ARIA role attribute to ignore leading and trailing whitespace, including line breaks. (267930@main)",https://commits.webkit.org/267930@main,https://bugs.webkit.org/buglist.cgi?content=267930@main
+180,,Accessibility,"Fixed exposing column headers of cells within role=""row"" elements with display: contents to assistive technologies. (267838@main)",https://commits.webkit.org/267838@main,https://bugs.webkit.org/buglist.cgi?content=267838@main
+180,,Accessibility,"Fixed empty accessibility label for role=""treeitem"" elements with display: contents who have child text starting with a newline. (267839@main)",https://commits.webkit.org/267839@main,https://bugs.webkit.org/buglist.cgi?content=267839@main
+180,,Accessibility,Fixed form landmarks being incorrectly exposed when they are missing a label. (268025@main),https://commits.webkit.org/268025@main,https://bugs.webkit.org/buglist.cgi?content=268025@main
+180,,CSS,"Added support for rect() shape for shape-outside, clip-path, and offset-path. (267863@main)",https://commits.webkit.org/267863@main,https://bugs.webkit.org/buglist.cgi?content=267863@main
+180,,CSS,Fixed the default link color contrast for the dark color scheme. (267847@main),https://commits.webkit.org/267847@main,https://bugs.webkit.org/buglist.cgi?content=267847@main
+180,,CSS,Fixed :has(:scope) matching. (267856@main),https://commits.webkit.org/267856@main,https://bugs.webkit.org/buglist.cgi?content=267856@main
+180,,CSS,Fixed invalidating scope-breaking :has(:is(...)) selectors. (268038@main),https://commits.webkit.org/268038@main,https://bugs.webkit.org/buglist.cgi?content=268038@main
+180,,CSS,Fixed backface-visibility to create a stacking context and containing block. (267980@main),https://commits.webkit.org/267980@main,https://bugs.webkit.org/buglist.cgi?content=267980@main
+180,,CSS,Fixed basic shapes to use an offset motion path. (267866@main),https://commits.webkit.org/267866@main,https://bugs.webkit.org/buglist.cgi?content=267866@main
+180,,CSS,Fixed grid to not always put first and last baseline aligned items into different alignment contexts. (267922@main),https://commits.webkit.org/267922@main,https://bugs.webkit.org/buglist.cgi?content=267922@main
+180,,CSS,Fixed :has(~ :is(.x ~ .y)) to consider all siblings of the :has scope when invalidating. (267932@main),https://commits.webkit.org/267932@main,https://bugs.webkit.org/buglist.cgi?content=267932@main
+180,,CSS,Fixed invalidating :default pseudo-class changes on input elements. (267848@main),https://commits.webkit.org/267848@main,https://bugs.webkit.org/buglist.cgi?content=267848@main
+180,,CSS,"Fixed calc(clamp(1px, 1em, 1vh)) to collapse to clamp(1px, 1em, 1vh). (267840@main)",https://commits.webkit.org/267840@main,https://bugs.webkit.org/buglist.cgi?content=267840@main
+180,,CSS,Fixed determing baseline for grid by considering the first and last baseline-aligned grid items. (268029@main),https://commits.webkit.org/268029@main,https://bugs.webkit.org/buglist.cgi?content=268029@main
+180,,CSS,Fixed the serialization of the computed style of grid-area. (268026@main),https://commits.webkit.org/268026@main,https://bugs.webkit.org/buglist.cgi?content=268026@main
+180,,CSS,Removed support for the auto value from alignment-baseline. (268008@main),https://commits.webkit.org/268008@main,https://bugs.webkit.org/buglist.cgi?content=268008@main
+180,,JavaScript,Added support for CanDeclareGlobalFunction abstract operation and related implementations. (267655@main),https://commits.webkit.org/267655@main,https://bugs.webkit.org/buglist.cgi?content=267655@main
+180,,JavaScript,Added support for HasVarDeclaration abstract operation. (267891@main),https://commits.webkit.org/267891@main,https://bugs.webkit.org/buglist.cgi?content=267891@main
+180,,Loading,Fixed an issue with a workaround to handle cases where websites serve Data URLs with malformed padding. This issue prevented some images in Word documents from failing to display when hosted by Box and Sharepoint. (267987@main),https://commits.webkit.org/267987@main,https://bugs.webkit.org/buglist.cgi?content=267987@main
+180,,Media,Fixed WebCodecs hardware encoders losing a frame. (267865@main),https://commits.webkit.org/267865@main,https://bugs.webkit.org/buglist.cgi?content=267865@main
+180,,Web Animations,Fixed color-scheme to support discrete animation. (267750@main),https://commits.webkit.org/267750@main,https://bugs.webkit.org/buglist.cgi?content=267750@main
+180,,Web API,Fixed URL encoding for Request‘s referrer feature and Response.redirect(). They now always use UTF-8. (267841@main),https://commits.webkit.org/267841@main,https://bugs.webkit.org/buglist.cgi?content=267841@main
