@@ -1,0 +1,35 @@
+184,,Accessibility,Fixed VoiceOver not announcing the button label if the button is in a shadow root. (270542@main)  (118118138),https://commits.webkit.org/270542@main,https://bugs.webkit.org/buglist.cgi?content=270542@main
+184,,CSS,Added support for CSS custom properties on dialog ::backdrop (270246@main)  (117949961),https://commits.webkit.org/270246@main,https://bugs.webkit.org/buglist.cgi?content=270246@main
+184,,CSS,Fixed visited color to fallback. (270270@main)  (115289075),https://commits.webkit.org/270270@main,https://bugs.webkit.org/buglist.cgi?content=270270@main
+184,,CSS,Fixed block size with max-content and min-content in a table. (271054@main)  (116264670),https://commits.webkit.org/271054@main,https://bugs.webkit.org/buglist.cgi?content=271054@main
+184,,CSS,Fixed the continuity of transform animations through singular transforms. (270294@main)  (117209302),https://commits.webkit.org/270294@main,https://bugs.webkit.org/buglist.cgi?content=270294@main
+184,,CSS,Fixed content-visibility to not apply to tables. (270888@main)  (117914336),https://commits.webkit.org/270888@main,https://bugs.webkit.org/buglist.cgi?content=270888@main
+184,,HTML,Fixed memory growth with lazy loaded images outside the viewport. (270745@main)  (117683012),https://commits.webkit.org/270745@main,https://bugs.webkit.org/buglist.cgi?content=270745@main
+184,,HTML,Fixed blocking JavaScript reading nonce for <style> and <link>. (271046@main)  (118676659),https://commits.webkit.org/271046@main,https://bugs.webkit.org/buglist.cgi?content=271046@main
+184,,JavaScript,Enabled Array group methods. (270350@main)  (118037635),https://commits.webkit.org/270350@main,https://bugs.webkit.org/buglist.cgi?content=270350@main
+184,,JavaScript,"Added support for ArrayBuffer.prototype.detached, ArrayBuffer.prototype.transfer, and ArrayBuffer.prototype.transferToFixedLength. (270349@main)  (118037759)",https://commits.webkit.org/270349@main,https://bugs.webkit.org/buglist.cgi?content=270349@main
+184,,JavaScript,Fixed Temporal API to throw TypeErrors for unexpected primitives. (270262@main)  (117992134),https://commits.webkit.org/270262@main,https://bugs.webkit.org/buglist.cgi?content=270262@main
+184,,JavaScript,Fixed Temporal options handling to align with the specification. (270360@main)  (118088676),https://commits.webkit.org/270360@main,https://bugs.webkit.org/buglist.cgi?content=270360@main
+184,,JavaScript,Fixed Temporal.Now.timeZone() to be updated to timeZoneId(). (271003@main)  (118674314),https://commits.webkit.org/271003@main,https://bugs.webkit.org/buglist.cgi?content=271003@main
+184,,Media,Added support for all of HTML’s character entities in WebVTT. (270240@main)  (51064890),https://commits.webkit.org/270240@main,https://bugs.webkit.org/buglist.cgi?content=270240@main
+184,,Media,Fixed the always empty video.buffered attribute. (270931@main)  (118550061),https://commits.webkit.org/270931@main,https://bugs.webkit.org/buglist.cgi?content=270931@main
+184,,Media,Fixed WebVTT to correctly parse region id settings. (270868@main)  (118551267),https://commits.webkit.org/270868@main,https://bugs.webkit.org/buglist.cgi?content=270868@main
+184,,Media,Fixed VideoEncoder produces no frames with latencyMode “realtime” when framerate/bitrate are not given. (271087@main)  (118725549),https://commits.webkit.org/271087@main,https://bugs.webkit.org/buglist.cgi?content=271087@main
+184,,Media,Fixed in-band captions wrapping unnecessarily. (271415@main)  (119024855),https://commits.webkit.org/271415@main,https://bugs.webkit.org/buglist.cgi?content=271415@main
+184,,Web Animations,Fixed style invalidation for animations. (270890@main)  (118500247),https://commits.webkit.org/270890@main,https://bugs.webkit.org/buglist.cgi?content=270890@main
+184,,Web API,Added support for AbortSignal.any(). (270268@main)  (117985827),https://commits.webkit.org/270268@main,https://bugs.webkit.org/buglist.cgi?content=270268@main
+184,,Web API,Added support for element.checkVisibility(). (270425@main)  (118157977),https://commits.webkit.org/270425@main,https://bugs.webkit.org/buglist.cgi?content=270425@main
+184,,Web Assembly,Enabled extended constant expressions. (270475@main)  (118190467),https://commits.webkit.org/270475@main,https://bugs.webkit.org/buglist.cgi?content=270475@main
+184,,Web Inspector,Added support for grouping source map load errors. (270834@main)  (109239646),https://commits.webkit.org/270834@main,https://bugs.webkit.org/buglist.cgi?content=270834@main
+184,,Web Inspector,Added an editor for the CSS linear() timing function. (270855@main)  (115095425),https://commits.webkit.org/270855@main,https://bugs.webkit.org/buglist.cgi?content=270855@main
+184,,Web Inspector,Fixed the tan() function to not trigger the color picker. (271075@main)  (118724061),https://commits.webkit.org/271075@main,https://bugs.webkit.org/buglist.cgi?content=271075@main
+184,,WebGL,"Added support for new WebGL extensions:
+
+EXT_clip_control
+EXT_depth_clamp
+EXT_polygon_offset_clamp
+WEBGL_polygon_mode (270382@main)  (118110035)",https://commits.webkit.org/270382@main,https://bugs.webkit.org/buglist.cgi?content=270382@main
+184,,WebGL,EXT_clip_control,,
+184,,WebGL,EXT_depth_clamp,,
+184,,WebGL,EXT_polygon_offset_clamp,,
+184,,WebGL,WEBGL_polygon_mode (270382@main)  (118110035),https://commits.webkit.org/270382@main,https://bugs.webkit.org/buglist.cgi?content=270382@main

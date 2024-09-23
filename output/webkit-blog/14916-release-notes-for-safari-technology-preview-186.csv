@@ -1,0 +1,30 @@
+186,,CSS,"Added support for invalidating :any-link, :link, and :-webkit-any-link inside :has() (271919@main)  (116616425)",https://commits.webkit.org/271919@main,https://bugs.webkit.org/buglist.cgi?content=271919@main
+186,,CSS,Added support for @scope invalidation. (271897@main)  (119313058),https://commits.webkit.org/271897@main,https://bugs.webkit.org/buglist.cgi?content=271897@main
+186,,CSS,Added support for an implicit scoping root when there is no <scope-start>. (272390@main)  (119659940),https://commits.webkit.org/272390@main,https://bugs.webkit.org/buglist.cgi?content=272390@main
+186,,CSS,Added support for :scope inside @scope prelude. (272065@main)  (119661541),https://commits.webkit.org/272065@main,https://bugs.webkit.org/buglist.cgi?content=272065@main
+186,,CSS,Added support for align-content on table cells. (272373@main)  (119701629),https://commits.webkit.org/272373@main,https://bugs.webkit.org/buglist.cgi?content=272373@main
+186,,CSS,Added support for content-visibility to be animate-able.  (272364@main)  (119940258),https://commits.webkit.org/272364@main,https://bugs.webkit.org/buglist.cgi?content=272364@main
+186,,CSS,Fixed querySelector() to not throw an exception for -webkit- prefixed pseudo-elements. (272337@main)  (99299129),https://commits.webkit.org/272337@main,https://bugs.webkit.org/buglist.cgi?content=272337@main
+186,,CSS,Fixed :user-invalid triggering while typing a date. (272346@main)  (110687369),https://commits.webkit.org/272346@main,https://bugs.webkit.org/buglist.cgi?content=272346@main
+186,,CSS,Fixed nested @supports queries with declarations. (271989@main)  (113652033),https://commits.webkit.org/271989@main,https://bugs.webkit.org/buglist.cgi?content=271989@main
+186,,CSS,Fixed contain: inline-size breaking grid-template-rows: auto. (272085@main)  (113915953),https://commits.webkit.org/272085@main,https://bugs.webkit.org/buglist.cgi?content=272085@main
+186,,CSS,Fixed parsing and serialization of -webkit- prefixed pseudo-elements. (272411@main)  (118081134),https://commits.webkit.org/272411@main,https://bugs.webkit.org/buglist.cgi?content=272411@main
+186,,CSS,Fixed incorrect scoping roots with nested @scope. (271941@main)  (119511916),https://commits.webkit.org/271941@main,https://bugs.webkit.org/buglist.cgi?content=271941@main
+186,,CSS,Fixed @scope prelude to take nesting into account. (272117@main)  (119711922),https://commits.webkit.org/272117@main,https://bugs.webkit.org/buglist.cgi?content=272117@main
+186,,CSS,Fixed grid with size containment and min-height not sizing row correctly. (272276@main)  (119736473),https://commits.webkit.org/272276@main,https://bugs.webkit.org/buglist.cgi?content=272276@main
+186,,CSS,Fixed @scope to be able to have orphaned declarations with an implicit enclosing style rule.  (119937025),,
+186,,Forms,"Added focus ring support for <input type=""checkbox"" switch>. (271884@main)  (119499785)",https://commits.webkit.org/271884@main,https://bugs.webkit.org/buglist.cgi?content=271884@main
+186,,Forms,"Added vertical rendering support for <input type=""checkbox"" switch>. (272405@main)  (119940157)",https://commits.webkit.org/272405@main,https://bugs.webkit.org/buglist.cgi?content=272405@main
+186,,HTML,Fixed missing support for the direction attribute in the list of attributes whose values are matched case-insensitively with attribute selectors. (272219@main)  (119432066),https://commits.webkit.org/272219@main,https://bugs.webkit.org/buglist.cgi?content=272219@main
+186,,JavaScript,Fixed async functions and generators to properly handle promises with throwing “constructor” getter. (272291@main)  (119734587),https://commits.webkit.org/272291@main,https://bugs.webkit.org/buglist.cgi?content=272291@main
+186,,Rendering,Fixed rendering for a <div> within a transformed parent <div> with  overflow: hidden. (271894@main)  (118901069),https://commits.webkit.org/271894@main,https://bugs.webkit.org/buglist.cgi?content=271894@main
+186,,Rendering,Fixed offsetHeight and offsetWidth are 0 for an inline box wrapping a block. (272386@main)  (119955792),https://commits.webkit.org/272386@main,https://bugs.webkit.org/buglist.cgi?content=272386@main
+186,,Service Workers,Fixed duplicate load requests with an active service worker. (272024@main)  (104377727),https://commits.webkit.org/272024@main,https://bugs.webkit.org/buglist.cgi?content=272024@main
+186,,Web Animations,Fixed percentage transform animations when width and height are animated. (272022@main)  (63309680),https://commits.webkit.org/272022@main,https://bugs.webkit.org/buglist.cgi?content=272022@main
+186,,Web Animations,Fixed a paused animation where currentTime is changed to 0 not restarting when unpaused. (271872@main)  (118826588),https://commits.webkit.org/271872@main,https://bugs.webkit.org/buglist.cgi?content=271872@main
+186,,Web API,Added a “gamepad” permission policy defaulting to * for the allow list. (272199@main)  (83219098),https://commits.webkit.org/272199@main,https://bugs.webkit.org/buglist.cgi?content=272199@main
+186,,Web API,Added ShadowRoot clonable attribute. (272096@main)  (119707278),https://commits.webkit.org/272096@main,https://bugs.webkit.org/buglist.cgi?content=272096@main
+186,,Web API,Fixed invalid coordinates on wheel and gesturechange events inside an iframe. (272176@main)  (105243167) (FB11986074),https://commits.webkit.org/272176@main,https://bugs.webkit.org/buglist.cgi?content=272176@main
+186,,Web API,Fixed HTMLAreaElement to align with the HTML Standard. (272217@main)  (110028213),https://commits.webkit.org/272217@main,https://bugs.webkit.org/buglist.cgi?content=272217@main
+186,,Web API,Fixed Scroll To Text Fragment to not scroll after dynamic stylesheet loads and the user has scrolled. (272151@main)  (112608578),https://commits.webkit.org/272151@main,https://bugs.webkit.org/buglist.cgi?content=272151@main
+186,,Web API,Fixed toggling the spellcheck attribute not toggling spelling markers on input elements. (271927@main)  (119269616),https://commits.webkit.org/271927@main,https://bugs.webkit.org/buglist.cgi?content=271927@main

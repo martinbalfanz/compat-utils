@@ -1,0 +1,4 @@
+187,,Accessibility,Fixed text missing from accessibility labels for many common shadow DOM scenarios. (272531@main)  (120223342),https://commits.webkit.org/272531@main,https://bugs.webkit.org/buglist.cgi?content=272531@main
+187,,Media,Fixed HLS video captions where there are multiple text tracks available. (272784@main)  (119839950),https://commits.webkit.org/272784@main,https://bugs.webkit.org/buglist.cgi?content=272784@main
+187,,Media,Fixed fullscreen video not scaling to display size when the Safari window is in Full Screen App Mode. (272733@main)  (119893556),https://commits.webkit.org/272733@main,https://bugs.webkit.org/buglist.cgi?content=272733@main
+187,,Media,Fixed handling key renewal requests that cause playback errors for some DRM content. (272592@main)  (120230860),https://commits.webkit.org/272592@main,https://bugs.webkit.org/buglist.cgi?content=272592@main

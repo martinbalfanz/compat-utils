@@ -1,0 +1,46 @@
+181,,Accessibility,"Fixed non-group and non-tree-item children of role=""treeitem"" elements becoming stale after dynamic changes. (268385@main) (115936550)",https://commits.webkit.org/268385@main,https://bugs.webkit.org/buglist.cgi?content=268385@main
+181,,CSS,Added support for content-visibility. (268313@main) (114734606),https://commits.webkit.org/268313@main,https://bugs.webkit.org/buglist.cgi?content=268313@main
+181,,CSS,Fixed <position> to never serialize to a single value. (268291@main) (111750372),https://commits.webkit.org/268291@main,https://bugs.webkit.org/buglist.cgi?content=268291@main
+181,,CSS,Fixed computation of the from-font value for font-size-adjust. (269041@main) (113328110),https://commits.webkit.org/269041@main,https://bugs.webkit.org/buglist.cgi?content=269041@main
+181,,CSS,Fixed <family-name> to forbid generic families. (268203@main) (113746537),https://commits.webkit.org/268203@main,https://bugs.webkit.org/buglist.cgi?content=268203@main
+181,,CSS,Fixed nested subgrids from contributing to the calculation of the enclosing track size. (268947@main) (114271839),https://commits.webkit.org/268947@main,https://bugs.webkit.org/buglist.cgi?content=268947@main
+181,,CSS,Fixed offset path inset shapes with a border-radius. (268192@main) (115316728),https://commits.webkit.org/268192@main,https://bugs.webkit.org/buglist.cgi?content=268192@main
+181,,CSS,Fixed blend modes with Interoperability improvements. (268173@main) (115688282),https://commits.webkit.org/268173@main,https://bugs.webkit.org/buglist.cgi?content=268173@main
+181,,CSS,Fixed not serializing at <position> in circle() or ellipse() if unspecified. (268344@main) (115866108),https://commits.webkit.org/268344@main,https://bugs.webkit.org/buglist.cgi?content=268344@main
+181,,CSS,Fixed serialization of shape-outside. (268365@main) (115938310),https://commits.webkit.org/268365@main,https://bugs.webkit.org/buglist.cgi?content=268365@main
+181,,CSS,Fixed serialization issues with clip-path and offset-path. (268379@main) (115953688),https://commits.webkit.org/268379@main,https://bugs.webkit.org/buglist.cgi?content=268379@main
+181,,CSS,Fixed circle() and ellipse() to use non-offset starting position for CSS Motion Path. (268400@main) (115962433),https://commits.webkit.org/268400@main,https://bugs.webkit.org/buglist.cgi?content=268400@main
+181,,CSS,"Fixed non-orthogonal subgrid margin, border, and padding to be considered for self-align baseline items in the same alignment context. (268804@main) (116206243)",https://commits.webkit.org/268804@main,https://bugs.webkit.org/buglist.cgi?content=268804@main
+181,,DOM,Fixed handling tasks scheduled for web pages in the back-forward cache. (268782@main) (116349535),https://commits.webkit.org/268782@main,https://bugs.webkit.org/buglist.cgi?content=268782@main
+181,,Forms,Fixed serialization of autocomplete with a webauthn token. (268520@main) (116107937),https://commits.webkit.org/268520@main,https://bugs.webkit.org/buglist.cgi?content=268520@main
+181,,HTML,Added support for one-time-code as an allowed autocomplete field name. (268097@main) (115684196),https://commits.webkit.org/268097@main,https://bugs.webkit.org/buglist.cgi?content=268097@main
+181,,HTML,"Fixed respecting the first parseable <meta name=""color-scheme""> value. (268064@main) (64705222)",https://commits.webkit.org/268064@main,https://bugs.webkit.org/buglist.cgi?content=268064@main
+181,,HTML,Fixed [dir=auto] invalidation with password fields. (268322@main) (115887776),https://commits.webkit.org/268322@main,https://bugs.webkit.org/buglist.cgi?content=268322@main
+181,,JavaScript,Implemented Annex B block-level function hoisting for global scope. (268553@main) (53234438),https://commits.webkit.org/268553@main,https://bugs.webkit.org/buglist.cgi?content=268553@main
+181,,JavaScript,Added support for Promise.withResolvers. (268892@main) (116473362),https://commits.webkit.org/268892@main,https://bugs.webkit.org/buglist.cgi?content=268892@main
+181,,JavaScript,Fixed stringification algorithm of the Function constructor to match specifications. (268633@main) (102065151),https://commits.webkit.org/268633@main,https://bugs.webkit.org/buglist.cgi?content=268633@main
+181,,JavaScript,Fixed generator functions to not be Annex B hoisting candidates. (268352@main) (114213642),https://commits.webkit.org/268352@main,https://bugs.webkit.org/buglist.cgi?content=268352@main
+181,,JavaScript,Fixed the algorithm determining Annex B hoisted functions to perform lexical scope chain walk. (268302@main) (115504046),https://commits.webkit.org/268302@main,https://bugs.webkit.org/buglist.cgi?content=268302@main
+181,,JavaScript,Fixed block-level function declarations to not allow shadow var bindings. (268634@main) (116202546),https://commits.webkit.org/268634@main,https://bugs.webkit.org/buglist.cgi?content=268634@main
+181,,JavaScript,Fixed duplicate lexical bindings to only be allowed for function declarations. (268671@main) (116252189),https://commits.webkit.org/268671@main,https://bugs.webkit.org/buglist.cgi?content=268671@main
+181,,Loading,Fixed Link-stylesheet elements to not fire load events for non-text/css and non-2XX responses. (268535@main) (116112223),https://commits.webkit.org/268535@main,https://bugs.webkit.org/buglist.cgi?content=268535@main
+181,,Loading,Fixed link-stylesheet elements to not fire load events for non-2XX responses such as 3XX responses that do not redirect. (268779@main) (116331826),https://commits.webkit.org/268779@main,https://bugs.webkit.org/buglist.cgi?content=268779@main
+181,,Media,Added support for variable packet durations in Vorbis streams. (268625@main) (99712672),https://commits.webkit.org/268625@main,https://bugs.webkit.org/buglist.cgi?content=268625@main
+181,,Media,Added MediaStream support for whiteBalanceMode. (268102@main) (115552800),https://commits.webkit.org/268102@main,https://bugs.webkit.org/buglist.cgi?content=268102@main
+181,,Rendering,Fixed uses of backdrop-filter: blur() with mix-blend-mode to render properly. (268426@main) (34470317),https://commits.webkit.org/268426@main,https://bugs.webkit.org/buglist.cgi?content=268426@main
+181,,Rendering,Fixed resizing behavior with writing-mode: vertical-rl or direction: rtl. (268157@main) (102620110),https://commits.webkit.org/268157@main,https://bugs.webkit.org/buglist.cgi?content=268157@main
+181,,Rendering,Fixed handling iframes with display: none. (112494003),,
+181,,Rendering,Fixed opacity and rendering the root element background image. (268156@main) (115396444),https://commits.webkit.org/268156@main,https://bugs.webkit.org/buglist.cgi?content=268156@main
+181,,Rendering,Fixed the color of the drop shadow to preserve its alpha channel. (268233@main) (115812347),https://commits.webkit.org/268233@main,https://bugs.webkit.org/buglist.cgi?content=268233@main
+181,,Rendering,Fixed filters with outsets to repaint the entire filterRegion if GraphicsStyles are used. (268282@main) (115817290),https://commits.webkit.org/268282@main,https://bugs.webkit.org/buglist.cgi?content=268282@main
+181,,Rendering,Fixed compositing the filter style transparency layers to not clip the destination context. (268341@main) (115901634),https://commits.webkit.org/268341@main,https://bugs.webkit.org/buglist.cgi?content=268341@main
+181,,Rendering,Removed margin-trim behavior for floats to match specification changes. (268227@main) (115794102),https://commits.webkit.org/268227@main,https://bugs.webkit.org/buglist.cgi?content=268227@main
+181,,SVG,Fixed the SVG mask to work as a mask-resource for the CSS mask-image. (268272@main) (114465545),https://commits.webkit.org/268272@main,https://bugs.webkit.org/buglist.cgi?content=268272@main
+181,,Web API,Added support for CSS Custom Highlights API. (268673@main) (116255516),https://commits.webkit.org/268673@main,https://bugs.webkit.org/buglist.cgi?content=268673@main
+181,,Web API,Fixed formAssociated=true causing a custom element to become focusable. (268756@main) (115909679),https://commits.webkit.org/268756@main,https://bugs.webkit.org/buglist.cgi?content=268756@main
+181,,Web API,Fixed TextTrackCue constructor to match updated specifications. (268644@main) (116002871),https://commits.webkit.org/268644@main,https://bugs.webkit.org/buglist.cgi?content=268644@main
+181,,Web Inspector,Fixed resource sorting in the Sources tab to consider the filename and extensions separately. (268557@main) (72905353),https://commits.webkit.org/268557@main,https://bugs.webkit.org/buglist.cgi?content=268557@main
+181,,WebDriver,Fixed dispatched mouse events always having buttons property set to zero. (268529@main) (116049187),https://commits.webkit.org/268529@main,https://bugs.webkit.org/buglist.cgi?content=268529@main
+181,,WebGL,Fixed a bug where multi-level textures would lose levels in WebGL. (268819@main) (116362216),https://commits.webkit.org/268819@main,https://bugs.webkit.org/buglist.cgi?content=268819@main
+181,,WebRTC,"Fixed media tracks obtained with {""width"":1920,""height"":1080,""frameRate"":24}. (268386@main) (61747755)",https://commits.webkit.org/268386@main,https://bugs.webkit.org/buglist.cgi?content=268386@main
+181,,WebRTC,Fixed video quality when using TransformStream with Simulcast. (268912@main) (110395571),https://commits.webkit.org/268912@main,https://bugs.webkit.org/buglist.cgi?content=268912@main
