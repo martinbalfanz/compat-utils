@@ -1,35 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 179,,CSS,Added support for mask-border properties. (267460@main),https://commits.webkit.org/267460@main,https://bugs.webkit.org/buglist.cgi?content=267460@main
 179,,CSS,Added support for the cap unit. (267315@main),https://commits.webkit.org/267315@main,https://bugs.webkit.org/buglist.cgi?content=267315@main
 179,,CSS,Added support for the <position> parameter in ray(). (267459@main),https://commits.webkit.org/267459@main,https://bugs.webkit.org/buglist.cgi?content=267459@main
@@ -778,3 +746,21 @@ https://bugs.webkit.org/buglist.cgi?content=275789@main"
 203,,Web Extensions,Fixed Safari Web Extension ports to receive messages in content scripts when sent from the onConnect event listener. (283006@main)  (133501214) (FB14721836),https://commits.webkit.org/283006@main,https://bugs.webkit.org/buglist.cgi?content=283006@main
 203,,Web Inspector,Added support for sourcemaps to be blackboxed. (282740@main)  (133731737),https://commits.webkit.org/282740@main,https://bugs.webkit.org/buglist.cgi?content=282740@main
 203,,Web Inspector,Added support for showing boundThis for arrow functions in the console. (282553@main)  (134268331),https://commits.webkit.org/282553@main,https://bugs.webkit.org/buglist.cgi?content=282553@main
+204,,Accessibility,Fixed VoiceOver focus to activate PDF form fields when it lands on them. (283281@main)  (134522935),https://commits.webkit.org/283281@main,https://bugs.webkit.org/buglist.cgi?content=283281@main
+204,,CSS,Added support for cross-document view-transitions. (283320@main)  (133994557),https://commits.webkit.org/283320@main,https://bugs.webkit.org/buglist.cgi?content=283320@main
+204,,CSS,Added preview support for line-clamp. (283233@main)  (135369594),https://commits.webkit.org/283233@main,https://bugs.webkit.org/buglist.cgi?content=283233@main
+204,,CSS,Fixed text-decoration-thickness to work in buttons. (283212@main)  (118320835),https://commits.webkit.org/283212@main,https://bugs.webkit.org/buglist.cgi?content=283212@main
+204,,CSS,Fixed skipping view transitions on hidden pages. (283084@main)  (125017653),https://commits.webkit.org/283084@main,https://bugs.webkit.org/buglist.cgi?content=283084@main
+204,,CSS,Fixed contrast between ButtonFace and ButtonText system colors in dark mode. (283284@main)  (131996608),https://commits.webkit.org/283284@main,https://bugs.webkit.org/buglist.cgi?content=283284@main
+204,,Forms,Fixed HTMLSelectElement.prototype.add with optgroup elements. (283080@main)  (120553757),https://commits.webkit.org/283080@main,https://bugs.webkit.org/buglist.cgi?content=283080@main
+204,,JavaScript,Fixed: Improved the TypeError message when a WeakMap constructor takes an iterable that yields invalid entry. (283199@main)  (135333331),https://commits.webkit.org/283199@main,https://bugs.webkit.org/buglist.cgi?content=283199@main
+204,,JavaScript,Fixed incorrect SyntaxError when destructuring let. (283217@main)  (135353378),https://commits.webkit.org/283217@main,https://bugs.webkit.org/buglist.cgi?content=283217@main
+204,,JavaScript,Removed obsoleted methods for Temporal.PlainTime and Temporal.PlainDateTime to align with specification changes. (283315@main)  (135509670),https://commits.webkit.org/283315@main,https://bugs.webkit.org/buglist.cgi?content=283315@main
+204,,Service Workers,Fixed Service Workers to support focusing a page that is being loaded. (283263@main)  (135337772),https://commits.webkit.org/283263@main,https://bugs.webkit.org/buglist.cgi?content=283263@main
+204,,Web API,Added support for the Cookie Store API. (283654@main)  (135969444),https://commits.webkit.org/283654@main,https://bugs.webkit.org/buglist.cgi?content=283654@main
+204,,Web API,Fixed scrollIntoView(...) for SVG elements. (283157@main)  (135265918),https://commits.webkit.org/283157@main,https://bugs.webkit.org/buglist.cgi?content=283157@main
+204,,Web Driver,Fixed Web Driver to use pointer origin rather than viewport origin for state location resolution. (283186@main)  (128668986),https://commits.webkit.org/283186@main,https://bugs.webkit.org/buglist.cgi?content=283186@main
+204,,Web Extensions,Added support for icon_variants in Web Extensions. (283224@main)  (134885372),https://commits.webkit.org/283224@main,https://bugs.webkit.org/buglist.cgi?content=283224@main
+204,,Web Extensions,Fixed blob URL downloads failing to trigger from an extension. (283220@main)  (78929424),https://commits.webkit.org/283220@main,https://bugs.webkit.org/buglist.cgi?content=283220@main
+204,,Web Extensions,Fixed including the extension’s icon in the commands menu item and prevented customization using System Settings. (283229@main)  (135360504),https://commits.webkit.org/283229@main,https://bugs.webkit.org/buglist.cgi?content=283229@main
+204,,Web Inspector,Fixed an issue where multi-line content in the Console prompt was not scrollable. (283412@main)  (131756916),https://commits.webkit.org/283412@main,https://bugs.webkit.org/buglist.cgi?content=283412@main
