@@ -2470,6 +2470,8 @@ https://bugs.webkit.org/buglist.cgi?content=126863775"
 ,18.0,WebView,WebViewDidChangeTypingStyleNotification,,
 ,18.0,WebView,WebViewDidChangeSelectionNotification  (130033164),,https://bugs.webkit.org/buglist.cgi?content=130033164
 ,18.0,WebXR,Added support for immersive WebXR in visionOS.  (125631316),,https://bugs.webkit.org/buglist.cgi?content=125631316
+,18.0,Networking,Fixed SameSite default behavior.,,
+,18.0,Web Extensions,Fixed an issue to restore lost Safari Web Extension data.,,
 ,18.1 Beta,Accessibility,Fixed tables with hidden rows reporting wrong counts and block access to some rows in VoiceOver.  (129612387),,https://bugs.webkit.org/buglist.cgi?content=129612387
 ,18.1 Beta,Accessibility,"Fixed role=""menu"" elements to allow child groups with menuitem children.  (131838275)",,https://bugs.webkit.org/buglist.cgi?content=131838275
 ,18.1 Beta,Accessibility,Fixed elements with display: contents preventing items from being read on iOS.  (132265522),,https://bugs.webkit.org/buglist.cgi?content=132265522
