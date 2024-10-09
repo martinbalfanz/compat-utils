@@ -764,6 +764,19 @@ https://bugs.webkit.org/buglist.cgi?content=275789@main"
 204,,Web Extensions,Fixed blob URL downloads failing to trigger from an extension. (283220@main)  (78929424),https://commits.webkit.org/283220@main,https://bugs.webkit.org/buglist.cgi?content=283220@main
 204,,Web Extensions,Fixed including the extension’s icon in the commands menu item and prevented customization using System Settings. (283229@main)  (135360504),https://commits.webkit.org/283229@main,https://bugs.webkit.org/buglist.cgi?content=283229@main
 204,,Web Inspector,Fixed an issue where multi-line content in the Console prompt was not scrollable. (283412@main)  (131756916),https://commits.webkit.org/283412@main,https://bugs.webkit.org/buglist.cgi?content=283412@main
+205,,HTML,Fixed adding an unexpected download failure when no placeholder URL is provided. (284157@main)  (136378962),https://commits.webkit.org/284157@main,https://bugs.webkit.org/buglist.cgi?content=284157@main
+205,,JavaScript,Added support for Math.sumPrecise. (283774@main)  (131580043),https://commits.webkit.org/283774@main,https://bugs.webkit.org/buglist.cgi?content=283774@main
+205,,JavaScript,Added support for Iterator.prototype.reduce. (283697@main)  (136064316),https://commits.webkit.org/283697@main,https://bugs.webkit.org/buglist.cgi?content=283697@main
+205,,JavaScript,Fixed: Updated Intl.DurationFormat#resolvedOptions to the latest specification. (283901@main)  (136276429),https://commits.webkit.org/283901@main,https://bugs.webkit.org/buglist.cgi?content=283901@main
+205,,JavaScript,Fixed Iterator Helpers methods to not iterate an array. (283933@main)  (136303997),https://commits.webkit.org/283933@main,https://bugs.webkit.org/buglist.cgi?content=283933@main
+205,,Lockdown Mode,Enabled Lockdown Mode Safe Fonts to try parsing web fonts with a safe font parser in Lockdown Mode. While the safe parser is enabled the list of allowed fonts won’t be used.  (283951@main)  (125621507),https://commits.webkit.org/283951@main,https://bugs.webkit.org/buglist.cgi?content=283951@main
+205,,SVG,Removed the SVG 1.1 kerning property. (283718@main)  (116965514),https://commits.webkit.org/283718@main,https://bugs.webkit.org/buglist.cgi?content=283718@main
+205,,Tables,"Fixed table row direction to be determined by the table’s direction, not the section. (283875@main)  (99343532)",https://commits.webkit.org/283875@main,https://bugs.webkit.org/buglist.cgi?content=283875@main
+205,,Text,"Fixed: The changes for GB18030-2022 now properly impact GBK as well, as required by the Encoding Standard. (283987@main)  (136368583)",https://commits.webkit.org/283987@main,https://bugs.webkit.org/buglist.cgi?content=283987@main
+205,,Web API,Fixed the onrejectionhandled and onunhandledrejection event handler attributes to work correctly on body and frameset elements. (283698@main)  (135401362),https://commits.webkit.org/283698@main,https://bugs.webkit.org/buglist.cgi?content=283698@main
+205,,Web Driver,Fixed chorded mouse interactions by ensuring input dispatch logic correctly interprets successive mousepress or mouserelease actions with different button values. (283790@main)  (128669517),https://commits.webkit.org/283790@main,https://bugs.webkit.org/buglist.cgi?content=283790@main
+205,18.0,Web Extensions,Fixed an issue to restore lost Safari Web Extension data.  (136159837),,
+205,,WebAssembly,Added support for the new Wasm Exception Specification. (283954@main)  (131409318),https://commits.webkit.org/283954@main,https://bugs.webkit.org/buglist.cgi?content=283954@main
 ,12,Web on watchOS,Added support for viewing web pages and HTML from Mail and Messages on watchOS 5 with Apple Watch Series 3 or later.,,
 ,12,Authentication and Passwords,Added support for automatically generating unique strong passwords when creating an account and updating passwords.,,
 ,12,Authentication and Passwords,Added support for compatibility with the passwordrules attribute when generating passwords.,,
@@ -2471,7 +2484,6 @@ https://bugs.webkit.org/buglist.cgi?content=126863775"
 ,18.0,WebView,WebViewDidChangeSelectionNotification  (130033164),,https://bugs.webkit.org/buglist.cgi?content=130033164
 ,18.0,WebXR,Added support for immersive WebXR in visionOS.  (125631316),,https://bugs.webkit.org/buglist.cgi?content=125631316
 ,18.0,Networking,Fixed SameSite default behavior.,,
-,18.0,Web Extensions,Fixed an issue to restore lost Safari Web Extension data.,,
 ,18.1 Beta,Accessibility,Fixed tables with hidden rows reporting wrong counts and block access to some rows in VoiceOver.  (129612387),,https://bugs.webkit.org/buglist.cgi?content=129612387
 ,18.1 Beta,Accessibility,"Fixed role=""menu"" elements to allow child groups with menuitem children.  (131838275)",,https://bugs.webkit.org/buglist.cgi?content=131838275
 ,18.1 Beta,Accessibility,Fixed elements with display: contents preventing items from being read on iOS.  (132265522),,https://bugs.webkit.org/buglist.cgi?content=132265522
