@@ -777,3 +777,28 @@ https://bugs.webkit.org/buglist.cgi?content=275789@main"
 205,,Web Driver,Fixed chorded mouse interactions by ensuring input dispatch logic correctly interprets successive mousepress or mouserelease actions with different button values. (283790@main)  (128669517),https://commits.webkit.org/283790@main,https://bugs.webkit.org/buglist.cgi?content=283790@main
 205,,Web Extensions,Fixed an issue to restore lost Safari Web Extension data.  (136159837),,
 205,,WebAssembly,Added support for the new Wasm Exception Specification. (283954@main)  (131409318),https://commits.webkit.org/283954@main,https://bugs.webkit.org/buglist.cgi?content=283954@main
+206,,CSS,Fixed: Dropped layout containment from container-type. (284730@main)  (132549134),https://commits.webkit.org/284730@main,https://bugs.webkit.org/buglist.cgi?content=284730@main
+206,,CSS,Fixed CSS nested declarations inside a @scope to behave like :where(:scope). (284635@main)  (136856371),https://commits.webkit.org/284635@main,https://bugs.webkit.org/buglist.cgi?content=284635@main
+206,,Editing,Implemented ClipboardItem.support() which gives the page author the ability to understand which formats are supported during Clipboard operations. It also now returns a TypeError for a new ClipboardItem() with an empty Array. (284593@main)  (136008522),"https://w3c.github.io/clipboard-apis/#dom-clipboarditem-supports 
+https://commits.webkit.org/284593@main","https://bugs.webkit.org/buglist.cgi?content=supported during Clipboard operations 
+https://bugs.webkit.org/buglist.cgi?content=284593@main"
+206,,Editing,Fixed missing SecureContext in the ClipboardItem interface. (284511@main)  (137197266),https://commits.webkit.org/284511@main,https://bugs.webkit.org/buglist.cgi?content=284511@main
+206,,JavaScript,"Completed the Iterator Helpers proposal by implementing map(), filter(), take(), drop(), and flatMap() methods. (284597@main)  (103171739)","https://github.com/tc39/proposal-iterator-helpers 
+https://commits.webkit.org/284597@main","https://bugs.webkit.org/buglist.cgi?content=Iterator Helpers proposal 
+https://bugs.webkit.org/buglist.cgi?content=284597@main"
+206,,JavaScript,Fixed Iterator.prototype.reduce() not properly forwarding the return() call to the underlying iterator. (284648@main)  (137181340),https://commits.webkit.org/284648@main,https://bugs.webkit.org/buglist.cgi?content=284648@main
+206,,Media,Added support for the Image Capture API. (284447@main)  (136860809),"https://w3c.github.io/mediacapture-image/#imagecaptureapi 
+https://commits.webkit.org/284447@main","https://bugs.webkit.org/buglist.cgi?content=Image Capture API 
+https://bugs.webkit.org/buglist.cgi?content=284447@main"
+206,,Rendering,Fixed non-separable blend modes in mix-blend-mode to workon elements in compositing layers. (284170@main)  (49387130),https://commits.webkit.org/284170@main,https://bugs.webkit.org/buglist.cgi?content=284170@main
+206,,Rendering,Fixed repeating background-image sized to the content-box failing to fill the viewport in an iframe. (284165@main)  (133952319),https://commits.webkit.org/284165@main,https://bugs.webkit.org/buglist.cgi?content=284165@main
+206,,Rendering,Fixed floats not clearing in the WordPress Classic Editor sidebar layout. (284247@main)  (136362683),https://commits.webkit.org/284247@main,https://bugs.webkit.org/buglist.cgi?content=284247@main
+206,,SVG,Fixed: Updated getTotalLength() with the web specification to throw an exception when non-renderable and the path is empty. (284311@main)  (136719548),https://commits.webkit.org/284311@main,https://bugs.webkit.org/buglist.cgi?content=284311@main
+206,,Tables,Fixed Table Root to also account for fill-available in a fixed table layout. (284712@main)  (137297914),https://commits.webkit.org/284712@main,https://bugs.webkit.org/buglist.cgi?content=284712@main
+206,,Web Extensions,Added support for getKeys() in storage areas. (284602@main)  (136595295),https://commits.webkit.org/284602@main,https://bugs.webkit.org/buglist.cgi?content=284602@main
+206,,Web Extensions,Added support for i18n.getSystemUILanguage and i18n.getPreferredSystemLanguages. (284637@main)  (136929657),https://commits.webkit.org/284637@main,https://bugs.webkit.org/buglist.cgi?content=284637@main
+206,,WebDriver,Fixed a crash that could occur when simulating drag events with the right mouse button. (284577@main)  (137068514),https://commits.webkit.org/284577@main,https://bugs.webkit.org/buglist.cgi?content=284577@main
+206,,WebRTC,Added support for enumerated visible network interfaces. (284687@main)  (137067672),https://commits.webkit.org/284687@main,https://bugs.webkit.org/buglist.cgi?content=284687@main
+206,,WebRTC,Fixed MediaSession.setMicrophoneActive(true) prompting repeatedly if the microphone was muted by the user-agent once. (284399@main)  (135941062),https://commits.webkit.org/284399@main,https://bugs.webkit.org/buglist.cgi?content=284399@main
+206,,WebRTC,FixedsetCameraActive to not unmute microphone if the user-agent previously muted both camera and microphone. (284069@main)  (136221456),https://commits.webkit.org/284069@main,https://bugs.webkit.org/buglist.cgi?content=284069@main
+206,,WebRTC,Fixed AirPods unmuting to not unmute the camera if website muted the camera. (284514@main)  (137065964),https://commits.webkit.org/284514@main,https://bugs.webkit.org/buglist.cgi?content=284514@main
