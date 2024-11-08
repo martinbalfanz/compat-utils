@@ -802,6 +802,23 @@ https://bugs.webkit.org/buglist.cgi?content=284447@main"
 206,,WebRTC,Fixed MediaSession.setMicrophoneActive(true) prompting repeatedly if the microphone was muted by the user-agent once. (284399@main)  (135941062),https://commits.webkit.org/284399@main,https://bugs.webkit.org/buglist.cgi?content=284399@main
 206,,WebRTC,FixedsetCameraActive to not unmute microphone if the user-agent previously muted both camera and microphone. (284069@main)  (136221456),https://commits.webkit.org/284069@main,https://bugs.webkit.org/buglist.cgi?content=284069@main
 206,,WebRTC,Fixed AirPods unmuting to not unmute the camera if website muted the camera. (284514@main)  (137065964),https://commits.webkit.org/284514@main,https://bugs.webkit.org/buglist.cgi?content=284514@main
+207,,CSS,Fixed: Updated the shape() function to match the proposed syntax. (285442@main)  (138126105),https://commits.webkit.org/285442@main,https://bugs.webkit.org/buglist.cgi?content=285442@main
+207,,Forms,Added enhancements to <input type=color> to support alpha and colorspace attributes. (285448@main)  (137737348),https://commits.webkit.org/285448@main,https://bugs.webkit.org/buglist.cgi?content=285448@main
+207,,JavaScript,Added support for Atomics.pause. (284917@main)  (137571229),https://commits.webkit.org/284917@main,https://bugs.webkit.org/buglist.cgi?content=284917@main
+207,,JavaScript,Fixed: Stopped using resolved scope as this value when calling functions. (284931@main)  (77915872),https://commits.webkit.org/284931@main,https://bugs.webkit.org/buglist.cgi?content=284931@main
+207,,JavaScript,Fixed Set.prototype methods to invoke keys() without arguments. (284747@main)  (137395979),https://commits.webkit.org/284747@main,https://bugs.webkit.org/buglist.cgi?content=284747@main
+207,,JavaScript,"Fixed Array.from(), Array.fromAsync(), and TypedArray.from() to invoke document.all passed as a mapper. (284868@main)  (137490201)",https://commits.webkit.org/284868@main,https://bugs.webkit.org/buglist.cgi?content=284868@main
+207,,JavaScript,Fixed Intl.DurationFormat to have a value limit to match the specification. (285131@main)  (137885273),https://commits.webkit.org/285131@main,https://bugs.webkit.org/buglist.cgi?content=285131@main
+207,,JavaScript,Fixed a rounding error for Intl.DurationFormat. (285482@main)  (138261569),https://commits.webkit.org/285482@main,https://bugs.webkit.org/buglist.cgi?content=285482@main
+207,,Loading,Added noopener-allow-popups support in Cross-Origin-Opener-Policy. (284866@main)  (129664445),https://commits.webkit.org/284866@main,https://bugs.webkit.org/buglist.cgi?content=284866@main
+207,,Networking,Added Brotli support for Compression Streams. (285391@main)  (99159497),https://commits.webkit.org/285391@main,https://bugs.webkit.org/buglist.cgi?content=285391@main
+207,,Rendering,Fixed scriptlevel multipler for font-size in MathML. (285069@main)  (137671252),https://commits.webkit.org/285069@main,https://bugs.webkit.org/buglist.cgi?content=285069@main
+207,,Rendering,Fixed a flex container with no flex item to not run flex layout. (285129@main)  (137884128),https://commits.webkit.org/285129@main,https://bugs.webkit.org/buglist.cgi?content=285129@main
+207,,Scrolling,Fixed changes to the “scrolling” attribute on an iframe element already in the DOM to take effect. (284947@main)  (98911472),https://commits.webkit.org/284947@main,https://bugs.webkit.org/buglist.cgi?content=284947@main
+207,,Web Extensions,Added support for documentId to the sender message object. (284855@main)  (137532821),https://commits.webkit.org/284855@main,https://bugs.webkit.org/buglist.cgi?content=284855@main
+207,,Web Extensions,Added support for documentId to tabs.sendMessage() and tabs.connect(). (285438@main)  (137532897),https://commits.webkit.org/285438@main,https://bugs.webkit.org/buglist.cgi?content=285438@main
+207,,Web Extensions,Fixed tabs.executeScript ignoring the frameId parameter. (284915@main)  (137449521) (FB15420092),https://commits.webkit.org/284915@main,https://bugs.webkit.org/buglist.cgi?content=284915@main
+207,,Web Inspector,Fixed: Changed the label to use “Disable site-specific quirks” in settings. (285136@main)  (137779118),https://commits.webkit.org/285136@main,https://bugs.webkit.org/buglist.cgi?content=285136@main
 ,12,Web on watchOS,Added support for viewing web pages and HTML from Mail and Messages on watchOS 5 with Apple Watch Series 3 or later.,,
 ,12,Authentication and Passwords,Added support for automatically generating unique strong passwords when creating an account and updating passwords.,,
 ,12,Authentication and Passwords,Added support for compatibility with the passwordrules attribute when generating passwords.,,
