@@ -846,6 +846,17 @@ https://bugs.webkit.org/buglist.cgi?content=284447@main"
 208,,Web Inspector,Fixed the Elements tab DOM tree view reducing deeply-nested nodes to one character wide. (286163@main)  (86833831),https://commits.webkit.org/286163@main,https://bugs.webkit.org/buglist.cgi?content=286163@main
 208,,Web Inspector,Fixed error cases to match new source map specification. (285541@main)  (137934436),https://commits.webkit.org/285541@main,https://bugs.webkit.org/buglist.cgi?content=285541@main
 208,,WebRTC,Fixed voice search to not re-prompt for camera or microphone permission after a page-initiated same origin navigation.(285950@main)  (138122655),https://commits.webkit.org/285950@main,https://bugs.webkit.org/buglist.cgi?content=285950@main
+209,,Browser,Fixed an issue where sites would log out automatically after a brief time. (286436@main)  (99829958),https://commits.webkit.org/286436@main,https://bugs.webkit.org/buglist.cgi?content=286436@main
+209,,CSS,Fixed an issue where SVG text was not displayed in a content-visibility: auto subtree. (286447@main)  (138040315),https://commits.webkit.org/286447@main,https://bugs.webkit.org/buglist.cgi?content=286447@main
+209,,CSS,Fixed an issue where radial gradients with two color stops at 100% failed to extend the last color. (286413@main)  (139369366),https://commits.webkit.org/286413@main,https://bugs.webkit.org/buglist.cgi?content=286413@main
+209,,Rendering,Fixed: Improved view-transitions performance by only rasterizing on-screen snapshots. (286553@main)  (139339149),https://commits.webkit.org/286553@main,https://bugs.webkit.org/buglist.cgi?content=286553@main
+209,,Scrolling,Added support for Scroll To Text Fragment feature detection with document.fragmentDirective. (286423@main)  (139631353),https://commits.webkit.org/286423@main,https://bugs.webkit.org/buglist.cgi?content=286423@main
+209,,SVG,Fixed SVG paths getting clipped at tile boundaries. (286550@main)  (135280080),https://commits.webkit.org/286550@main,https://bugs.webkit.org/buglist.cgi?content=286550@main
+209,,SVG,Fixed SVG quadratic curve getting incorrectly clipped at tile boundaries. (286618@main)  (139904014),https://commits.webkit.org/286618@main,https://bugs.webkit.org/buglist.cgi?content=286618@main
+209,,Text,Fixed an issue where a thick underline would not show on short content. (286639@main)  (64705955),https://commits.webkit.org/286639@main,https://bugs.webkit.org/buglist.cgi?content=286639@main
+209,,Web API,Fixed HTMLElement.requestPointerLock to return a Promise. (286597@main)  (139854530),https://commits.webkit.org/286597@main,https://bugs.webkit.org/buglist.cgi?content=286597@main
+209,,Web Extensions,Fixed CORS for Web Extension pages to respect granted per-site permissions.,,
+209,,Web Inspector,Added the ability to modify only the headers of a request using a Request Local Override. (286679@main)  (139043491),https://commits.webkit.org/286679@main,https://bugs.webkit.org/buglist.cgi?content=286679@main
 ,12,Web on watchOS,Added support for viewing web pages and HTML from Mail and Messages on watchOS 5 with Apple Watch Series 3 or later.,,
 ,12,Authentication and Passwords,Added support for automatically generating unique strong passwords when creating an account and updating passwords.,,
 ,12,Authentication and Passwords,Added support for compatibility with the passwordrules attribute when generating passwords.,,
