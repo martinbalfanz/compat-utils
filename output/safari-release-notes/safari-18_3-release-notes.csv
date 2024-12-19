@@ -1,0 +1,14 @@
+,18.3 Beta,CSS,Fixed the ::view-transition pseudo-element to create a stacking context.  (138196100),,https://bugs.webkit.org/buglist.cgi?content=138196100
+,18.3 Beta,CSS,Fixed an issue where SVG text was not displayed in a content-visibility: auto subtree.  (139667754),,https://bugs.webkit.org/buglist.cgi?content=139667754
+,18.3 Beta,CSS,Fixed :not(:has(...)) invalidation.  (140215464),,https://bugs.webkit.org/buglist.cgi?content=140215464
+,18.3 Beta,Editing,Fixed duplicated and offset highlights in iCloud Notes.  (140215491),,https://bugs.webkit.org/buglist.cgi?content=140215491
+,18.3 Beta,Media,Fixed an an incorrect aspect ratio for WebM files with non-1:1 source pixels and a sample-aspect-ratio setting.  (140352350),,https://bugs.webkit.org/buglist.cgi?content=140352350
+,18.3 Beta,Rendering,Fixed dynamically changing scrollbar-width causing horizontal scrollbars to be painted incorrectly.  (139287706),,https://bugs.webkit.org/buglist.cgi?content=139287706
+,18.3 Beta,Rendering,Fixed <img> element with height: min-content getting stretched vertically.  (139717026),,https://bugs.webkit.org/buglist.cgi?content=139717026
+,18.3 Beta,Rendering,Fixed: Improved view-transitions performance by only rasterizing on-screen snapshots.  (140162836),,https://bugs.webkit.org/buglist.cgi?content=140162836
+,18.3 Beta,Scrolling,Fixed scrollbar appearance when changing to light or dark appearance.  (140215544),,https://bugs.webkit.org/buglist.cgi?content=140215544
+,18.3 Beta,Security,"Removed support for Clear-Site-Data: ""executionContexts"".  (138673776)",,https://bugs.webkit.org/buglist.cgi?content=138673776
+,18.3 Beta,Web API,Fixed touching or clicking outside of the popover not closing it on iOS or iPadOS.  (139078745),,https://bugs.webkit.org/buglist.cgi?content=139078745
+,18.3 Beta,Web Extensions,"Fixed an issue where the permissions alert would still appear after clicking the extension icon, even though the user had granted the extension access to all sites.  (139078231)",,https://bugs.webkit.org/buglist.cgi?content=139078231
+,18.3 Beta,Web Inspector,Fixed the DOM tree view in the Elements tab reducing deeply-nested nodes to one character wide.  (140221149),,https://bugs.webkit.org/buglist.cgi?content=140221149
+,18.3 Beta,WKWebView,"Fixed an issue where entering full screen in WKWebView on iOS could fail, even with isElementFullscreenEnabled enabled.  (140804572)",,https://bugs.webkit.org/buglist.cgi?content=140804572
