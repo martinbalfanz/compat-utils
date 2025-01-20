@@ -873,6 +873,22 @@ https://bugs.webkit.org/buglist.cgi?content=284447@main"
 210,,Web Inspector,Added support for sending Android user agents using the device override menu when Web Inspector is connected to a remote device. (287092@main)  (139305520),https://commits.webkit.org/287092@main,https://bugs.webkit.org/buglist.cgi?content=287092@main
 210,,Web Inspector,Fixed the overview icon to be inverted dark mode in the Graphics tab. (287110@main)  (140602803),https://commits.webkit.org/287110@main,https://bugs.webkit.org/buglist.cgi?content=287110@main
 210,,Web Inspector,Fixed recorded WebGL objects not getting highlighted correctly in the Graphics tab. (287127@main)  (140625113),https://commits.webkit.org/287127@main,https://bugs.webkit.org/buglist.cgi?content=287127@main
+211,,Canvas,Added CanvasRenderingContext2D support for unprefixed letterSpacing and wordSpacing. (287661@main)  (140614722),https://commits.webkit.org/287661@main,https://bugs.webkit.org/buglist.cgi?content=287661@main
+211,,Canvas,Removed support for webKitBackingStorePixelRatio. (287523@main)  (123980544),https://commits.webkit.org/287523@main,https://bugs.webkit.org/buglist.cgi?content=287523@main
+211,,Canvas,Removed support for the prefixed webkitImageSmoothingEnabled to use the standard imageSmoothingEnabled property. (287552@main)  (141128458),https://commits.webkit.org/287552@main,https://bugs.webkit.org/buglist.cgi?content=287552@main
+211,,CSS,Fixed table border-color to be currentColor by default. (287861@main)  (48382483),https://commits.webkit.org/287861@main,https://bugs.webkit.org/buglist.cgi?content=287861@main
+211,,CSS,Fixed handling all of the CSS properties in specifications that should cause a UI widget to devolve to a primitive appearance. (287702@main)  (134273374),https://commits.webkit.org/287702@main,https://bugs.webkit.org/buglist.cgi?content=287702@main
+211,,JavaScript,Added support for Error.isError. (287527@main)  (141132351),https://commits.webkit.org/287527@main,https://bugs.webkit.org/buglist.cgi?content=287527@main
+211,,JavaScript,"Added ""never"" and ""formalSynbol"" to the currencyDisplay option for Intl.NumberFormat. (287849@main)  (141504278)",https://commits.webkit.org/287849@main,https://bugs.webkit.org/buglist.cgi?content=287849@main
+211,,Media,Fixed getUserMedia video track getSettings() returning a stale value for torch and whiteBalanceMode constraints. (287845@main)  (137870391),https://commits.webkit.org/287845@main,https://bugs.webkit.org/buglist.cgi?content=287845@main
+211,,Rendering,Fixed computing the baseline for replaced elements with an intrinsic ratio but no intrinsic size as flex items. (287672@main)  (74279029),https://commits.webkit.org/287672@main,https://bugs.webkit.org/buglist.cgi?content=287672@main
+211,,Rendering,Fixed textareas to reserve space for overlay scrollbars. (287837@main)  (129597865),https://commits.webkit.org/287837@main,https://bugs.webkit.org/buglist.cgi?content=287837@main
+211,,Web API,Added an option to set the popover’s invoker from an imperative API. (287624@main)  (139362169),https://commits.webkit.org/287624@main,https://bugs.webkit.org/buglist.cgi?content=287624@main
+211,,Web API,Added support for Declarative Web Push. (287606@main)  (141082392),https://commits.webkit.org/287606@main,https://bugs.webkit.org/buglist.cgi?content=287606@main
+211,,Web API,Added support for X25519 for Web Cryptography. (287732@main)  (141346336),https://commits.webkit.org/287732@main,https://bugs.webkit.org/buglist.cgi?content=287732@main
+211,,Web API,Fixed MutationObserver to observe style attribute changes when resizing the element. (287833@main)  (120109181),https://commits.webkit.org/287833@main,https://bugs.webkit.org/buglist.cgi?content=287833@main
+211,,Web Extensions,Added support for documentId to webRequest. (287683@main)  (141058456),https://commits.webkit.org/287683@main,https://bugs.webkit.org/buglist.cgi?content=287683@main
+211,,Web Extensions,Added support for documentId to scripting and tabs. (287803@main)  (141291546),https://commits.webkit.org/287803@main,https://bugs.webkit.org/buglist.cgi?content=287803@main
 ,12,Web on watchOS,Added support for viewing web pages and HTML from Mail and Messages on watchOS 5 with Apple Watch Series 3 or later.,,
 ,12,Authentication and Passwords,Added support for automatically generating unique strong passwords when creating an account and updating passwords.,,
 ,12,Authentication and Passwords,Added support for compatibility with the passwordrules attribute when generating passwords.,,
