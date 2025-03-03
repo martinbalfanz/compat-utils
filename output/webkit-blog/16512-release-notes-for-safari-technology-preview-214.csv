@@ -1,0 +1,19 @@
+214,,Browser,Added support for data: URL favicons. (290395@main)  (143967312),https://commits.webkit.org/290395@main,https://bugs.webkit.org/buglist.cgi?content=290395@main
+214,,CSS,Added support for overflow-block and overflow-inline. (290109@main)  (70579028),https://commits.webkit.org/290109@main,https://bugs.webkit.org/buglist.cgi?content=290109@main
+214,,CSS,"Fixed cursor: pointer not appearing on an <area> element used in conjunction with an <img usemap=""...""> element. (290169@main)  (74483873)",https://commits.webkit.org/290169@main,https://bugs.webkit.org/buglist.cgi?content=290169@main
+214,,CSS,Fixed the behavior of cursor over live text with user-select: none. (289793@main)  (99708616),https://commits.webkit.org/289793@main,https://bugs.webkit.org/buglist.cgi?content=289793@main
+214,,CSS,Fixed an issue wrapping an SVG at the end of a line when using text-wrap: balance. (289963@main)  (141532036),https://commits.webkit.org/289963@main,https://bugs.webkit.org/buglist.cgi?content=289963@main
+214,,CSS,Fixed the computed value of a float with absolute positioning to be none when there is no box. (290061@main)  (144045558),https://commits.webkit.org/290061@main,https://bugs.webkit.org/buglist.cgi?content=290061@main
+214,,CSS,Fixed: Updated contrast-color() to remove the max parameter. (290210@main)  (144611470),https://commits.webkit.org/290210@main,https://bugs.webkit.org/buglist.cgi?content=290210@main
+214,,JavaScript,Added support for Regular Expression Pattern Modifiers. (290485@main)  (131580854),https://commits.webkit.org/290485@main,https://bugs.webkit.org/buglist.cgi?content=290485@main
+214,,Media,Added support for MediaSource prefers DecompressionSession by default. (289924@main)  (142761051),https://commits.webkit.org/289924@main,https://bugs.webkit.org/buglist.cgi?content=289924@main
+214,,Media,Added support for WebCodecs AudioDecoder by default. (289723@main)  (144059448),https://commits.webkit.org/289723@main,https://bugs.webkit.org/buglist.cgi?content=289723@main
+214,,Media,Added support for ALAC and PCM audio in MediaRecorder. (289781@main)  (144145333),https://commits.webkit.org/289781@main,https://bugs.webkit.org/buglist.cgi?content=289781@main
+214,,Media,Fixed picture-in-picture to exit when the video element is removed. (290216@main)  (123869436),https://commits.webkit.org/290216@main,https://bugs.webkit.org/buglist.cgi?content=290216@main
+214,,Media,Fixed seeking or scrubbing not always seeking to the time requested. (289836@main)  (142275903) (FB16223006),https://commits.webkit.org/289836@main,https://bugs.webkit.org/buglist.cgi?content=289836@main
+214,,Networking,Blocked partitioned cookies for known tracking domains. (289849@main)  (144184516),https://commits.webkit.org/289849@main,https://bugs.webkit.org/buglist.cgi?content=289849@main
+214,,Rendering,Fixed a disappearing stretched image in a vertical flexbox layout. (289903@main)  (135897530),https://commits.webkit.org/289903@main,https://bugs.webkit.org/buglist.cgi?content=289903@main
+214,,Rendering,Fixed the caret positioning in sideways-lr writing mode. (290387@main)  (144117372),https://commits.webkit.org/290387@main,https://bugs.webkit.org/buglist.cgi?content=290387@main
+214,,Web API,Fixed update scoped custom element registry implementation to match the web standard changes. (290096@main)  (144456850),https://commits.webkit.org/290096@main,https://bugs.webkit.org/buglist.cgi?content=290096@main
+214,,Web Inspector,Removed support for inspecting WebSQL in Web Inspector. (289854@main)  (143596276),https://commits.webkit.org/289854@main,https://bugs.webkit.org/buglist.cgi?content=289854@main
+214,,Web Inspector,Removed support for inspecting ApplicationCache. (289820@main)  (143596399),https://commits.webkit.org/289820@main,https://bugs.webkit.org/buglist.cgi?content=289820@main
