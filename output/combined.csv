@@ -996,6 +996,20 @@ https://bugs.webkit.org/buglist.cgi?content=284447@main"
 214,,Web API,Fixed update scoped custom element registry implementation to match the web standard changes. (290096@main)  (144456850),https://commits.webkit.org/290096@main,https://bugs.webkit.org/buglist.cgi?content=290096@main
 214,,Web Inspector,Removed support for inspecting WebSQL in Web Inspector. (289854@main)  (143596276),https://commits.webkit.org/289854@main,https://bugs.webkit.org/buglist.cgi?content=289854@main
 214,,Web Inspector,Removed support for inspecting ApplicationCache. (289820@main)  (143596399),https://commits.webkit.org/289820@main,https://bugs.webkit.org/buglist.cgi?content=289820@main
+215,,CSS,Added support for Scroll Driven Animations. (290471@main)  (144887859),https://commits.webkit.org/290471@main,https://bugs.webkit.org/buglist.cgi?content=290471@main
+215,,CSS,Added support for text-wrap-style: pretty. (291092@main)  (145577976),https://commits.webkit.org/291092@main,https://bugs.webkit.org/buglist.cgi?content=291092@main
+215,,CSS,Added support for CSS Anchor Positioning. (291214@main)  (145681750),https://commits.webkit.org/291214@main,https://bugs.webkit.org/buglist.cgi?content=291214@main
+215,,JavaScript,Fixed processing of an alternation of strings (290982@main)  (145222010),https://commits.webkit.org/290982@main,https://bugs.webkit.org/buglist.cgi?content=290982@main
+215,,Networking,Fixed using WebSocket in a WebWorker causing the entire Worker to freeze. (290802@main)  (145149784),https://commits.webkit.org/290802@main,https://bugs.webkit.org/buglist.cgi?content=290802@main
+215,,Scrolling,Fixed autoscrolling for smooth scrolling while selecting text. (290497@main)  (144900491),https://commits.webkit.org/290497@main,https://bugs.webkit.org/buglist.cgi?content=290497@main
+215,,Text,Fixed generating scroll to text fragments around text that contains newlines. (290761@main)  (137109344),https://commits.webkit.org/290761@main,https://bugs.webkit.org/buglist.cgi?content=290761@main
+215,,Text,Fixed generating text fragments when the selected text starts and ends in different blocks. (290748@main)  (137761701),https://commits.webkit.org/290748@main,https://bugs.webkit.org/buglist.cgi?content=290748@main
+215,,Text,Fixed Copy Link to Highlight not working when selecting text that is its own block and when that text exists higher up in the document. (290683@main)  (144392379),https://commits.webkit.org/290683@main,https://bugs.webkit.org/buglist.cgi?content=290683@main
+215,,Text,Fixed selections that start or end in white space not creating text fragments. (291146@main)  (145614181),https://commits.webkit.org/291146@main,https://bugs.webkit.org/buglist.cgi?content=291146@main
+215,,Web API,Added support for Trusted Types. (291409@main)  (130065736),https://commits.webkit.org/291409@main,https://bugs.webkit.org/buglist.cgi?content=291409@main
+215,,Web API,Added support for the File System WritableStream API. (291399@main)  (145875384),https://commits.webkit.org/291399@main,https://bugs.webkit.org/buglist.cgi?content=291399@main
+215,,Web API,Fixed fullscreen to use a single queue for event dispatching. (290898@main)  (145372389),https://commits.webkit.org/290898@main,https://bugs.webkit.org/buglist.cgi?content=290898@main
+215,,Web Extensions,"Fixed a bug where the runtime.MessageSender origin parameter would be lowercased, differing from the result returned from runtime.getURL. (291118@main)  (140291738)",https://commits.webkit.org/291118@main,https://bugs.webkit.org/buglist.cgi?content=291118@main
 ,12,Web on watchOS,Added support for viewing web pages and HTML from Mail and Messages on watchOS 5 with Apple Watch Series 3 or later.,,
 ,12,Authentication and Passwords,Added support for automatically generating unique strong passwords when creating an account and updating passwords.,,
 ,12,Authentication and Passwords,Added support for compatibility with the passwordrules attribute when generating passwords.,,
