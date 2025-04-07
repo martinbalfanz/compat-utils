@@ -1,0 +1,5 @@
+,18.5 Beta,Editing,Fixed some errors in finding the caret position from a click or tap on iOS in vertical writing modes.  (146512180),,https://bugs.webkit.org/buglist.cgi?content=146512180
+,18.5 Beta,Networking,Fixed using WebSocket in a WebWorker causing the entire Worker to freeze.  (145149784),,https://bugs.webkit.org/buglist.cgi?content=145149784
+,18.5 Beta,Service Workers,Fixed Service Worker downloads being prematurely interrupted.  (143065672),,https://bugs.webkit.org/buglist.cgi?content=143065672
+,18.5 Beta,Service Workers,Fixed moving a download file to its final destination.  (146326574),,https://bugs.webkit.org/buglist.cgi?content=146326574
+,18.5 Beta,Web Extensions,Fixed declarativeNetRequestWithHostAccess permission removing site access even though the extension already has permission to inject scripts.  (145484265),,https://bugs.webkit.org/buglist.cgi?content=145484265
