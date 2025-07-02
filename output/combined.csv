@@ -1095,7 +1095,7 @@ https://bugs.webkit.org/buglist.cgi?content=291770@main"
 219,26.0 Beta,Rendering,Fixed an issue where feMerge incorrectly positioned HTML elements when merging the same feMergeNode multiple times. (294088@main)  (149431216),https://commits.webkit.org/294088@main,https://bugs.webkit.org/buglist.cgi?content=294088@main
 219,26.0 Beta,Rendering,Fixed an issue in determining when a flex item should be used for percentage resolution during intrinsic width computation. (293901@main)  (149615295),https://commits.webkit.org/293901@main,https://bugs.webkit.org/buglist.cgi?content=293901@main
 219,26.0 Beta,Web API,"Fixed an overly broad fullscreen exit trigger by restricting it to only text-entry elements gaining focus, preventing non-text input types from causing unexpected fullscreen exits. (294284@main)  (136726993)",https://commits.webkit.org/294284@main,https://bugs.webkit.org/buglist.cgi?content=294284@main
-219,,Web Extensions,Fixed 'allowAllRequests' for declarativeNetRequest. (294041@main)  (72203692),https://commits.webkit.org/294041@main,https://bugs.webkit.org/buglist.cgi?content=294041@main
+219,18.6 Beta,Web Extensions,Fixed 'allowAllRequests' for declarativeNetRequest. (294041@main)  (72203692),https://commits.webkit.org/294041@main,https://bugs.webkit.org/buglist.cgi?content=294041@main
 219,,Web Extensions,Fixed a non-fatal webRequest error for non-persistent background content. (294142@main)  (150051544),https://commits.webkit.org/294142@main,https://bugs.webkit.org/buglist.cgi?content=294142@main
 219,26.0 Beta,WebRTC,Added support for RTCEncodedAudioFrame and RTCEncodedVideoFrame constructors. (293951@main)  (149541424),https://commits.webkit.org/293951@main,https://bugs.webkit.org/buglist.cgi?content=293951@main
 220,,CSS,Added support for field-sizing to override the default sizing behavior of form elements and adjust size to fit their contents. (295370@main)  (151949208),https://commits.webkit.org/295370@main,https://bugs.webkit.org/buglist.cgi?content=295370@main
@@ -1125,6 +1125,15 @@ https://bugs.webkit.org/buglist.cgi?content=291770@main"
 221,26.0 Beta,Web Inspector,Added support for recording Workers in the Timelines tab. (295485@main)  (151721737),https://commits.webkit.org/295485@main,https://bugs.webkit.org/buglist.cgi?content=295485@main
 221,26.0 Beta,Web Inspector,"Fixed pretty-printing CSS to avoid adding a space after the universal selector (*) when followed by a pseudo-class or pseudo-element, preventing unintended changes to CSS selector behavior. (295447@main)  (71544976) (FB8906066)",https://commits.webkit.org/295447@main,https://bugs.webkit.org/buglist.cgi?content=295447@main
 221,26.0 Beta,WebRTC,Added support for exposing a default system speaker device. (295206@main)  (151761469),https://commits.webkit.org/295206@main,https://bugs.webkit.org/buglist.cgi?content=295206@main
+222,26.0 Beta,Accessibility,"Fixed <figcaption> within a <figure> element to only contribute to the accessible name of an <img> element if the image lacks other labeling methods like alt, ARIA attributes, or the title attribute. (295746@main)  (150597445)",https://commits.webkit.org/295746@main,https://bugs.webkit.org/buglist.cgi?content=295746@main
+222,,Accessibility,Fixed handling of invalid values for aria-setsize and aria-posinset according to the most-recent revision of the ARIA specification. (295814@main)  (151113693),https://commits.webkit.org/295814@main,https://bugs.webkit.org/buglist.cgi?content=295814@main
+222,,Accessibility,Fixed VoiceOver reading “Processing page %infinity” when loading large pages. (295858@main)  (152617082),https://commits.webkit.org/295858@main,https://bugs.webkit.org/buglist.cgi?content=295858@main
+222,,CSS,Added support for implicit anchor elements for pseudo-elements with anchor functions. (295871@main)  (152635393),https://commits.webkit.org/295871@main,https://bugs.webkit.org/buglist.cgi?content=295871@main
+222,,Media,Fixed video elements with WebM object URLs causing MediaError code 2. (295802@main)  (151234095),https://commits.webkit.org/295802@main,https://bugs.webkit.org/buglist.cgi?content=295802@main
+222,,Rendering,Fixed CSS filters to establish a containing block like transform does. (295958@main)  (119130847),https://commits.webkit.org/295958@main,https://bugs.webkit.org/buglist.cgi?content=295958@main
+222,,Rendering,Fixed CSS gradient interpolation for “longer hue” gradients when an end color stop is omitted. (295860@main)  (142738948),https://commits.webkit.org/295860@main,https://bugs.webkit.org/buglist.cgi?content=295860@main
+222,,Scrolling,Fixed inconsistent decimal values from getBoundingClientRect for sticky elements. (295783@main)  (147163986),https://commits.webkit.org/295783@main,https://bugs.webkit.org/buglist.cgi?content=295783@main
+222,,Web API,Fixed the <option> element to not trim the label value and correctly handle an empty label. (295708@main)  (151309514),https://commits.webkit.org/295708@main,https://bugs.webkit.org/buglist.cgi?content=295708@main
 ,12.1,General,Updated the push notification prompt for Safari on macOS to require a user gesture.,,
 ,12.1,General,Updated the behavior of websites saved to the home screen on iOS to pause in the background instead of relaunching each time.,,
 ,12.1,Authentication and Passwords,Updated Password AutoFill to sign in automatically to websites after filling in the credentials.,,
@@ -2928,6 +2937,9 @@ https://bugs.webkit.org/buglist.cgi?content=107993392"
 ,18.5 Beta,Editing,Fixed some errors in finding the caret position from a click or tap on iOS in vertical writing modes.  (146512180),,https://bugs.webkit.org/buglist.cgi?content=146512180
 ,18.5 Beta,Service Workers,Fixed moving a download file to its final destination.  (146326574),,https://bugs.webkit.org/buglist.cgi?content=146326574
 ,18.5 Beta,Web Extensions,Fixed declarativeNetRequestWithHostAccess permission removing site access even though the extension already has permission to inject scripts.  (145484265),,https://bugs.webkit.org/buglist.cgi?content=145484265
+,18.6 Beta,Rendering,Fixed style invalidation for :has(+:popover-open).  (149794951),,https://bugs.webkit.org/buglist.cgi?content=149794951
+,18.6 Beta,WKWebView,Fixed a crash at launch in iOS Simulator for apps built for older deployment targets that bind to specific WebKit API.  (152342621),,https://bugs.webkit.org/buglist.cgi?content=152342621
+,18.6 Beta,Web Extensions,Fixed loading a web accessible resource from a subframe at about:blank.  (149971391),,https://bugs.webkit.org/buglist.cgi?content=149971391
 ,18.0,Accessibility,"Added support for <input type=""datetime"">, <input type=""datetime-local"">, and <time> elements.  (118180250)",,https://bugs.webkit.org/buglist.cgi?content=118180250
 ,18.0,Accessibility,Fixed VoiceOver to read hidden associated labels.  (113631557),,https://bugs.webkit.org/buglist.cgi?content=113631557
 ,18.0,Accessibility,Fixed VoiceOver support for aria-activedescendant on macOS.  (122590052),,https://bugs.webkit.org/buglist.cgi?content=122590052
@@ -3025,7 +3037,6 @@ https://bugs.webkit.org/buglist.cgi?content=126863775"
 ,18.0,WebView,WebViewDidChangeTypingStyleNotification,,
 ,18.0,WebView,WebViewDidChangeSelectionNotification  (130033164),,https://bugs.webkit.org/buglist.cgi?content=130033164
 ,18.0,WebXR,Added support for immersive WebXR in visionOS.  (125631316),,https://bugs.webkit.org/buglist.cgi?content=125631316
-,26.0 Beta,Accessibility,"Fixed <figcaption> within a <figure> element to only contribute to the accessible name of an <img> element if the image lacks other labeling methods like alt, ARIA attributes, or the title attribute.  (150597445)",,https://bugs.webkit.org/buglist.cgi?content=150597445
 ,26.0 Beta,Accessibility,"Fixed invalid values for aria-setsize and aria-posinset are now handled according to the updated ARIA specification, to ensure correct accessibility API exposure and predictable behavior for these attributes.  (151113693)",,https://bugs.webkit.org/buglist.cgi?content=151113693
 ,26.0 Beta,Browser,Added support for SVG icons.  (113567909),,https://bugs.webkit.org/buglist.cgi?content=113567909
 ,26.0 Beta,Browser,Added support for reporting a website compatibility issue in Safari.  (133791139),,https://bugs.webkit.org/buglist.cgi?content=133791139
